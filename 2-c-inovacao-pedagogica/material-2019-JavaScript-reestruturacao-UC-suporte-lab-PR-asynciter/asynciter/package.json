@@ -1,0 +1,30 @@
+{
+  "name": "genius",
+  "version": "1.0.0",
+  "description": "Playlists management",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Miguel Gamboa",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.7.0",
+    "@types/jest": "^24.0.23",
+    "jest": "^26.6.3"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs",
+          "@babel/plugin-proposal-class-properties"
+        ]
+      }
+    }
+  },
+  "dependencies": {
+    "request-promise": "^4.2.5"
+  }
+}
