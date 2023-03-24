@@ -1,0 +1,284 @@
+<html>
+	<head>
+		<title>Arkanoid</title>
+		<style type="text/css">
+			#board {
+				position: relative;
+				background-color: black;
+			}
+			#racket, #ball { position: absolute; }
+			.brick {
+				background-color: aqua;
+				border: 1px solid red;
+				text-align: center;
+				position: absolute;
+			}
+		</style>
+		<script type="text/javascript">
+			var otherKey = null, lastKey = null;
+			var FLAG = false;
+			var numBlocos = 32;
+			var BALL_VEL = 5;
+			var RACKET_VEL = 2.5;
+			var NIVEL = 1;
+			var INTERVALO = 10;
+			var LEFT_KEY = 37, RIGHT_KEY = 39, SPACE_KEY = 32;
+
+			var WIDTH = 350, HEIGHT = 400;
+			var RACKET_W = WIDTH/5, RACKET_H = RACKET_W/4;
+			var BALL_SZ = 15;
+			var BRICK_W = WIDTH/8, BRICK_H = BRICK_W/2;
+
+			var RAIO = 100;
+			var board, ball, racket, timer, muro=null;
+			var bricks; //Array com os tijolos
+
+			function load(){
+				otherKey = null; lastKey = null;
+				racket = novoObj( (WIDTH - RACKET_W)/2 - BRICK_W/2, HEIGHT - 3*RACKET_H,RACKET_W, RACKET_H, "racket");
+				ball = novoObj((WIDTH-BALL_SZ)/2 - BRICK_W/2, HEIGHT - 3*RACKET_H-BALL_SZ, BALL_SZ, BALL_SZ, "ball");
+				ball.dx =0;
+				ball.dy =0;
+				ball.vel = BALL_VEL;
+
+				racket.dx =0;
+				racket.vel = RACKET_VEL;
+
+				board = novoObj(0, 0, WIDTH, HEIGHT, "board");
+				bricks = new Array();
+				createBricks();
+				timer = setInterval('move();', INTERVALO);
+			}
+			function createBricks(){
+				if(muro != null)
+					board.elem.removeChild(muro);
+				muro = document.createElement("div");
+				board.elem.appendChild(muro);
+				for(var i=0; i<numBlocos;i++){
+					var b = document.createElement("div");
+					muro.appendChild(b);
+					b.className = "brick";
+					b.id = "b" + i;
+					var x = (BRICK_W*i)%WIDTH;
+					var y = Math.floor((BRICK_W*i)/WIDTH+3);
+					bricks[bricks.length] = novoObj(x, y*BRICK_H, BRICK_W,BRICK_H, "b" + i);
+				}
+			}
+			function novoObj(x,y,w,h,id){
+				var aux = new Object();
+				aux.x = x;
+				aux.y = y;
+				aux.width = w;
+				aux.height = h;
+				aux.elem = document.getElementById(id);
+				aux.elem.style.width = aux.width;
+				aux.elem.style.height = aux.height;
+				aux.elem.style.left = aux.x;
+				aux.elem.style.top = aux.y;
+				return aux;
+			}
+			function iniciar(){
+				ball.ang = Math.PI/2;
+				var dx = (ball.x+ball.width/2) - (racket.x + racket.width/2);
+				if(Math.abs(dx) > RAIO) dx = dx/dx * RAIO;
+				var arco = Math.PI/2 - Math.asin(dx/RAIO);
+				ball.ang += -2*(ball.ang-arco);
+
+				ball.dx= Math.cos(ball.ang);
+				ball.dy= -Math.sin(ball.ang);
+
+				if(ball.ang > Math.PI/2)
+					ball.ang = Math.PI - ball.ang;
+			}
+			function move(){
+				var xOld = ball.x;
+				var yOld = ball.y;
+				ball.x += ball.dx*ball.vel;
+				ball.y += ball.dy*ball.vel;
+				ball.elem.style.left = ball.x;
+				ball.elem.style.top = ball.y;
+				detectColicionX(xOld);
+				detectColicionY(yOld);
+				detectBrick(xOld, yOld);
+				racketMove();
+				//if(FLAG) {alert(ball.y);FLAG=false;}
+				detectRacket(ball.x, ball.y, xOld, yOld);
+			}
+			function detectRacket(bx, by, xo, yo){
+				if( by < racket.y + racket.height && by + BALL_SZ > racket.y &&
+					bx < racket.x + racket.width && bx + BALL_SZ > racket.x){
+					if(yo < racket.y + racket.height && yo + BALL_SZ > racket.y)
+						ball.dx = -ball.dx;
+					else
+						ball.dy = -ball.dy;
+
+					//Calcula novo angulo
+					//alert("beta: " + Number(ball.ang/Math.PI*180));
+					//alert("b: " + Math.round(ball.x + ball.width) + ";" + Number(by + BALL_SZ) + " r: " + Math.round(racket.x) + ";" + Number(racket.y));
+
+					if(ball.dx > 0)
+						ball.ang = Math.PI - ball.ang;
+					var dx = (ball.x+ball.width/2) - (racket.x + racket.width/2);
+					if(Math.abs(dx) > RAIO) dx = dx/dx * RAIO;
+					var arco = Math.PI/2 - Math.asin(dx/RAIO);
+
+					//alert("beta: " + Number(ball.ang/Math.PI*180) + "    alfa:" + Number(arco/Math.PI*180));
+
+					ball.ang += -2*(ball.ang-arco);
+
+					//alert("beta: " + Number(ball.ang/Math.PI*180));
+
+					ball.dx= Math.cos(ball.ang);
+					ball.dy= -Math.sin(ball.ang);
+					if(ball.ang > Math.PI){
+						ball.ang = ball.ang - Math.PI;
+						ball.x = racket.x-ball.width-1;
+						return
+					}
+					if(ball.ang < 0){
+						ball.ang = -ball.ang;
+						ball.x = racket.x+racket.width+1;
+						return;
+					}
+					if(ball.ang > Math.PI/2)
+						ball.ang = Math.PI - ball.ang;
+
+					ball.y = racket.y-ball.height-1;
+
+					//alert("FINAL:" + Number(ball.y+ball.height));
+					//alert("DEPOIS:" + Number(ball.dy*ball.vel + ball.height));
+					//FLAG = true;
+				}
+			}
+			function detectColicionX(xOld){
+				if (ball.x+ball.width > WIDTH || ball.x <0){
+					ball.dx = -ball.dx;
+					ball.x=xOld;
+				}
+			}
+			function detectColicionY(yOld){
+				if (ball.y <0){
+					ball.dy = -ball.dy;
+					ball.y = yOld;
+				}
+				
+				if (ball.y+ball.height > HEIGHT){
+					ball.dy = -ball.dy;
+					ball.y = yOld;
+					/*
+					alert("PERDEU !!! Tente novamente!");
+					//numBlocos = 16;
+					//BALL_VEL = 3;
+					//ball.vel = BALL_VEL;
+					//NIVEL=1;
+					alert("Nível " + NIVEL + " !");
+					clearInterval(timer);
+					load();
+					*/
+				}
+			}
+			function detectBrick(xo, yo){
+				for(var i=0; i<bricks.length; i++){
+					var brk = bricks[i];
+					if (insideBrick(ball.x, ball.y, bricks[i])){
+						removeBrick(i);
+						if(yo < brk.y + brk.height && yo + BALL_SZ > brk.y)
+							ball.dx = -ball.dx;
+						else
+							ball.dy = -ball.dy;
+						break;
+					}
+				}
+			}
+			function insideBrick(bx, by, brk){
+				if( by < brk.y + brk.height && by + BALL_SZ > brk.y &&
+					bx < brk.x + brk.width && bx + BALL_SZ > brk.x)
+					return true;
+				return false;
+			}
+			function removeBrick(i){
+				muro.removeChild(bricks[i].elem);
+				for( ; i < bricks.length-1 ; ++i )
+					bricks[i] = bricks[i+1];
+				bricks.length--;
+				if(bricks.length == 0){
+					alert("Parabéns !!!! Ganhou !!!");
+					if(ball.vel < 10 ){
+						numBlocos += 8;
+						BALL_VEL += 0.5
+						ball.vel = BALL_VEL;
+						RACKET_VEL += 0.5;
+						racket.vel = RACKET_VEL;
+						NIVEL++;
+					}
+					else{
+						numBlocos = 16;
+						BALL_VEL = 3;
+						ball.vel = BALL_VEL;
+						RACKET_VEL = 2.5;
+						racket.vel = RACKET_VEL;
+						NIVEL=1;
+						alert("Parabéns! Terminou o jogo!")
+					}
+					alert("Nível " + NIVEL + " !");
+					clearInterval(timer);
+					load();
+				}
+			}
+
+	function keyDown() {
+        var key = event.keyCode;
+        //alert( key );
+        if ( key==LEFT_KEY || key==RIGHT_KEY ) {
+          if ( lastKey==key ) return;
+          otherKey = lastKey; lastKey = key;
+        }
+        actionKey( key );
+      }
+
+      function keyUp() {
+        var key = event.keyCode;
+        if ( key == otherKey )
+          otherKey = null;
+        else if ( key == lastKey ) {
+          lastKey = otherKey;
+          otherKey = null;
+          actionKey( lastKey );
+        }
+      }
+
+      function actionKey(key) {
+        switch( key ) {
+          case SPACE_KEY:
+			iniciar();
+            break;
+          case LEFT_KEY:  racket.dx = -1; break;
+          case RIGHT_KEY: racket.dx = +1; break;
+          case null:      racket.dx = 0;  break;
+        }
+      }
+			function racketMove(){
+			/*
+				if(racket.dx == -1)
+					racket.x = 40;
+				if(racket.dx == 1)
+					racket.x = WIDTH - 40 - RACKET_W;
+			*/
+				var novoX = racket.x + (racket.dx * racket.vel);
+				if(novoX > 0 && novoX + racket.width < WIDTH){
+					racket.x = novoX;
+					racket.elem.style.left = racket.x;
+				}
+			}
+		</script>
+	</head>
+	<body onload='load();' onkeydown='keyDown();' onkeyup='keyUp();'>
+		<h2>Arkanoid by Miguel</h2>
+		<h5>SPACE: iniciar; < : esquerda; >: direita</h5>
+		<div id="board">
+			<img id="ball" src="ball.gif"/>
+			<img id="racket" src="racket.gif" />
+		</div>
+		<input type="button" value="Iniciar" onclick='alert(racket.vel);'/>
+	</body>
+</html>
