@@ -1,0 +1,37 @@
+SYMBOL TABLE
+   0 - @comp.id
+   1 - @feat.00
+   2 - .drectve
+   4 - .debug$S
+   6 - _long_name_var
+   7 - .data
+   9 - _arr
+  10 - $SG740
+  11 - .text
+  13 - _fx
+  14 - _putchar
+  15 - _entry
+  16 - _counter
+  17 - _printf
+
+SECTION #1  .drectve size=48  align= 1 flags=Info, Remove
+
+SECTION #2  .debug$S size=160 align= 1 flags=Init, Discardable, Read
+
+SECTION #3  .data    size=47  align= 4 flags=Init, Read, Write
+ Defined Symbols
+   9 - _arr
+  10 - $SG740
+
+SECTION #4  .text    size=80  align=16 flags=Code, Exec, Read
+ Defined Symbols
+  13 - _fx
+  15 - _entry
+ Referenced Symbols
+  14 - _putchar
+  10 - $SG740
+  17 - _printf
+  16 - _counter
+   6 - _long_name_var
+  13 - _fx
+  
