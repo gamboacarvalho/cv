@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="697,554" id="gpad" metadata="uml2-1.0" initialized="true" scrolledY="53" tag="1000" key="323030373031323220677061642F6D63617276616C686F">
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.2/@sourceConnections.0" name="IShape" location="57,50" size="196,108" id="gpad/IShape" runTimeClassModel="getBounds(),clone(),contains(Ljava.awt.geom.Point2D;),draw(Ljava.awt.Graphics2D;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,64">
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="gpad/IShape#draw(Ljava.awt.Graphics2D;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBounds" id="gpad/IShape#getBounds()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contains" id="gpad/IShape#contains(Ljava.awt.geom.Point2D;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AbstractLink" location="73,360" size="163,174" id="gpad/AbstractLink" runTimeClassModel="getBounds(),clone(),connect(Lgpad.INode;Lgpad.INode;),_end,getLine(),getStart(),getEnd(),_start">
+    <children xsi:type="editmodel:CompartmentEditModel" size="70,32">
+      <children xsi:type="editmodel:AttributeEditModel" name="_start" id="gpad/AbstractLink#_start"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_end" id="gpad/AbstractLink#_end"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,96">
+      <children xsi:type="editmodel:MethodEditModel" name="connect" id="gpad/AbstractLink#connect(Lgpad.INode;Lgpad.INode;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStart" id="gpad/AbstractLink#getStart()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEnd" id="gpad/AbstractLink#getEnd()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBounds" id="gpad/AbstractLink#getBounds()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLine" id="gpad/AbstractLink#getLine()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clone" id="gpad/AbstractLink#clone()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gpad/ILink&lt;-gpad/AbstractLink" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,124"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@sourceConnections.0" name="ILink" location="50,195" size="210,124" id="gpad/ILink" runTimeClassModel="connect(Lgpad.INode;Lgpad.INode;),getLine(),getStart(),getEnd()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="190,64">
+      <children xsi:type="editmodel:MethodEditModel" name="connect" id="gpad/ILink#connect(Lgpad.INode;Lgpad.INode;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStart" id="gpad/ILink#getStart()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEnd" id="gpad/ILink#getEnd()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLine" id="gpad/ILink#getLine()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gpad/IShape&lt;-gpad/ILink" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,108"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=3"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true"/>
+</editmodel:ClassDiagramEditModel>

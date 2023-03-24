@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="gpad PadPanel Tool" size="799,658" id="gpad" metadata="uml2-1.0" initialized="true" scrolledY="71" tag="1000" key="323030373031323220677061642F6D63617276616C686F">
+  <children xsi:type="editmodel:ClassEditModel" name="PadPanel" location="135,50" size="177,110" id="gpad/PadPanel" runTimeClassModel="getPreferredSize(),toolChanged(Lgpad.Tool;),PadPanel(Lgpad.PadToolBar;),paintComponent(Ljava.awt.Graphics;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="175,64">
+      <children xsi:type="editmodel:MethodEditModel" name="PadPanel" id="gpad/PadPanel#PadPanel(Lgpad.PadToolBar;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="paintComponent" id="gpad/PadPanel#paintComponent(Ljava.awt.Graphics;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPreferredSize" id="gpad/PadPanel#getPreferredSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toolChanged" id="gpad/PadPanel#toolChanged(Lgpad.Tool;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="gpad/Tool@+gpad/PadPanel@" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="177,55" id="gpad/Tool@+gpad/PadPanel@|gpad/PadPanel#" attachSource="true" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="319,84" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,55" id="gpad/Tool@+gpad/PadPanel@|gpad/Tool#" multiplicityLabel="//@children.0/@sourceConnections.0/@children.2/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="381,84" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="gpad/IShape@  +gpad/PadPanel@padPanel" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="padPanel" location="167,110" id="gpad/IShape@  +gpad/PadPanel@padPanel|gpad/PadPanel#padPanel" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="  " location="0,10" multiplicityLabel="//@children.0/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.0/@sourceConnections.1/@children.2/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" -   " location="592,302" size="16,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="602,274" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gpad/PadPanel-Standard::Call->gpad/IShape*gpad/PadPanel-Soyatec::Import->gpad/IShape" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import, call»" size="63,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="172,110" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gpad/PadPanel-Standard::Call->gpad/Tool*gpad/PadPanel-Soyatec::Import->gpad/Tool" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import, call»" size="63,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="177,34" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,24"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.0/@sourceConnections.0 //@children.0/@sourceConnections.3 //@children.4/@sourceConnections.2" name="Tool" location="394,50" size="149,188" id="gpad/Tool" runTimeClassModel="getShape(),handleMousePressed(Ljava.awt.event.MouseEvent;),handleMouseDragged(Ljava.awt.event.MouseEvent;),getSelected(),handleMouseReleased(Ljava.awt.event.MouseEvent;),draw(Ljava.awt.Graphics2D;),setShape(Lgpad.CompositeShape;),removeSelected()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="200,128">
+      <children xsi:type="editmodel:MethodEditModel" name="getSelected" id="gpad/Tool#getSelected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeSelected" id="gpad/Tool#removeSelected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShape" id="gpad/Tool#getShape()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="gpad/Tool#draw(Ljava.awt.Graphics2D;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMousePressed" id="gpad/Tool#handleMousePressed(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMouseReleased" id="gpad/Tool#handleMouseReleased(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMouseDragged" id="gpad/Tool#handleMouseDragged(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setShape" id="gpad/Tool#setShape(Lgpad.CompositeShape;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gpad/Tool->gpad/IShape*gpad/Tool-Soyatec::Import->gpad/IShape" source="//@children.1" target="//@children.6" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="149,178" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ToolMove" location="270,511" size="149,110" id="gpad/ToolMove" runTimeClassModel="handleMousePressed(Ljava.awt.event.MouseEvent;),handleMouseDragged(Ljava.awt.event.MouseEvent;),handleMouseReleased(Ljava.awt.event.MouseEvent;),ToolMove(Lgpad.CompositeShape;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="196,64">
+      <children xsi:type="editmodel:MethodEditModel" name="ToolMove" id="gpad/ToolMove#ToolMove(Lgpad.CompositeShape;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMouseDragged"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMouseReleased" id="gpad/ToolMove#handleMouseReleased(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMousePressed" id="gpad/ToolMove#handleMousePressed(Ljava.awt.event.MouseEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gpad/ToolSelection&lt;-gpad/ToolMove" source="//@children.2" target="//@children.5/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,0" anchorKind="FixedAtEdge" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gpad/ToolMove-Standard::Derive->gpad/ToolSelection" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«derive»" size="42,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,190"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ToolLink" location="625,511" size="149,126" id="gpad/ToolLink" runTimeClassModel="handleMousePressed(Ljava.awt.event.MouseEvent;),ToolLink(Lgpad.CompositeShape;Lgpad.ILinkFactory;),handleMouseDragged(Ljava.awt.event.MouseEvent;),handleMouseReleased(Ljava.awt.event.MouseEvent;),draw(Ljava.awt.Graphics2D;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="238,80">
+      <children xsi:type="editmodel:MethodEditModel" name="ToolLink" id="gpad/ToolLink#ToolLink(Lgpad.CompositeShape;Lgpad.ILinkFactory;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="gpad/ToolLink#draw(Ljava.awt.Graphics2D;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMousePressed" id="gpad/ToolLink#handleMousePressed(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMouseReleased" id="gpad/ToolLink#handleMouseReleased(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMouseDragged" id="gpad/ToolLink#handleMouseDragged(Ljava.awt.event.MouseEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gpad/ToolSelection&lt;-gpad/ToolLink" source="//@children.3" target="//@children.5/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,206"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gpad/ToolLink-Standard::Derive->gpad/ToolSelection" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«derive»" size="42,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="149,180"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gpad/ToolLink-Soyatec::Import->gpad/IShape" source="//@children.3" target="//@children.6" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,124"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.2/@sourceConnections.1 //@children.3/@sourceConnections.1 //@children.5/@sourceConnections.1" name="ToolSelection" location="375,285" size="149,190" id="gpad/ToolSelection" runTimeClassModel="getShape(),drawGrabber(Ljava.awt.Graphics2D;DD),pURPLE,handleMousePressed(Ljava.awt.event.MouseEvent;),getSelected(),draw(Ljava.awt.Graphics2D;),ToolSelection(Lgpad.CompositeShape;),setShape(Lgpad.CompositeShape;),removeSelected()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="76,16"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="200,144">
+      <children xsi:type="editmodel:MethodEditModel" name="ToolSelection" id="gpad/ToolSelection#ToolSelection(Lgpad.CompositeShape;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSelected" id="gpad/ToolSelection#getSelected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeSelected" id="gpad/ToolSelection#removeSelected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShape" id="gpad/ToolSelection#getShape()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="gpad/ToolSelection#draw(Ljava.awt.Graphics2D;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMousePressed" id="gpad/ToolSelection#handleMousePressed(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMouseReleased"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMouseDragged"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setShape" id="gpad/ToolSelection#setShape(Lgpad.CompositeShape;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gpad/Tool&lt;-gpad/ToolSelection" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="83,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,188"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="gpad/IShape@_shape+gpad/ToolSelection@padPanel" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="padPanel" location="149,61" id="gpad/IShape@_shape+gpad/ToolSelection@padPanel|gpad/ToolSelection#padPanel" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="_shape" location="0,61" id="gpad/IShape@_shape+gpad/ToolSelection@padPanel|gpad/IShape#_shape" multiplicityLabel="//@children.4/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.4/@sourceConnections.1/@children.2/@children.1" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="602,353" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name=" # _shape" location="560,325" size="48,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gpad/ToolSelection-Soyatec::Implement->gpad/Tool" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«implement»" size="59,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="44,188"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gpad/ToolSelection-Soyatec::Import->gpad/IShape" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="149,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,30"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ToolNode" location="450,511" size="149,110" id="gpad/ToolNode" runTimeClassModel="handleMousePressed(Ljava.awt.event.MouseEvent;),handleMouseDragged(Ljava.awt.event.MouseEvent;),handleMouseReleased(Ljava.awt.event.MouseEvent;),ToolNode(Lgpad.CompositeShape;Lgpad.INodeFactory;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="244,64">
+      <children xsi:type="editmodel:MethodEditModel" name="ToolNode" id="gpad/ToolNode#ToolNode(Lgpad.CompositeShape;Lgpad.INodeFactory;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMousePressed" id="gpad/ToolNode#handleMousePressed(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMouseDragged" id="gpad/ToolNode#handleMouseDragged(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleMouseReleased" id="gpad/ToolNode#handleMouseReleased(Ljava.awt.event.MouseEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.3/@sourceConnections.0" autoLocated="true" id="gpad/ToolSelection&lt;-gpad/ToolNode" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,189" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" anchorKind="FixedAtEdge" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="gpad/ToolNode-Standard::Derive->gpad/ToolSelection" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«derive»" size="42,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,190"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.1 //@children.0/@sourceConnections.1 //@children.0/@sourceConnections.2 //@children.1/@sourceConnections.0 //@children.3/@sourceConnections.2 //@children.4/@sourceConnections.3" name="IShape" location="615,285" size="159,124" id="gpad/IShape" runTimeClassModel="getBounds(),clone(),contains(Ljava.awt.geom.Point2D;),draw(Ljava.awt.Graphics2D;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,64">
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="gpad/IShape#draw(Ljava.awt.Graphics2D;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBounds" id="gpad/IShape#getBounds()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contains" id="gpad/IShape#contains(Ljava.awt.geom.Point2D;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clone" id="gpad/IShape#clone()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsReturnType="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

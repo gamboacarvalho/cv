@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="697,1328" id="gpadUml" metadata="uml2-1.0" initialized="true" scrolledY="26" tag="1000" key="323030373031323220677061642F6D63617276616C686F">
+  <children xsi:type="editmodel:ClassEditModel" name="MultiLineString" location="466,50" size="117,26" id="gpadUml/MultiLineString" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,160"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,208"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" name="LineStyle" location="50,1226" size="91,82" id="gpadUml/LineStyle">
+    <children xsi:type="editmodel:CompartmentEditModel" size="49,32">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="SOLID" id="gpadUml/LineStyle#SOLID%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="DOTTED" id="gpadUml/LineStyle#DOTTED%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UMLEditor" location="191,1226" size="85,62" id="gpadUml/UMLEditor">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="42,16">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="gpadUml/UMLEditor#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="RectangularNode" location="276,50" size="132,142" id="gpadUml/RectangularNode">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,96">
+      <children xsi:type="editmodel:MethodEditModel" name="clone" id="gpadUml/RectangularNode#clone()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contains" id="gpadUml/RectangularNode#contains(Ljava.awt.geom.Point2D;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBounds" id="gpadUml/RectangularNode#getBounds()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getConnectionPoint" id="gpadUml/RectangularNode#getConnectionPoint(Ljava.awt.geom.Point2D;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setBounds" id="gpadUml/RectangularNode#setBounds(Ljava.awt.geom.Rectangle2D;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="translate" id="gpadUml/RectangularNode#translate(DD)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ClassNode" location="269,242" size="86,26" id="gpadUml/ClassNode" runTimeClassModel="getAttributes(),ClassNode(),clone(),getName(),setAttributes(LgpadUml.MultiLineString;),setName(LgpadUml.MultiLineString;),attributes,setMethods(LgpadUml.MultiLineString;),draw(Ljava.awt.Graphics2D;),methods,getMethods(),layout(Ljava.awt.Graphics2D;),name">
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,48"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,160"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gpadUml/RectangularNode&lt;-gpadUml/ClassNode" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="46,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="39,142"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ClassRelationshipEdge" location="112,285" size="164,126" id="gpadUml/ClassRelationshipEdge">
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="bentStyle" id="gpadUml/ClassRelationshipEdge#bentStyle"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,64">
+      <children xsi:type="editmodel:MethodEditModel" name="ClassRelationshipEdge" id="gpadUml/ClassRelationshipEdge#ClassRelationshipEdge()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBentStyle" id="gpadUml/ClassRelationshipEdge#getBentStyle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPoints" id="gpadUml/ClassRelationshipEdge#getPoints()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setBentStyle" id="gpadUml/ClassRelationshipEdge#setBentStyle(LgpadUml.BentStyle;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gpadUml/SegmentedLineEdge&lt;-gpadUml/ClassRelationshipEdge" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="43,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,26"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="SegmentedLineEdge" location="50,194" size="149,26" id="gpadUml/SegmentedLineEdge" runTimeClassModel="setMiddleLabel(Ljava.lang.String;),endArrowHead,lineStyle,getBounds(Ljava.awt.Graphics2D;),getStartArrowHead(),setEndLabel(Ljava.lang.String;),endLabel,middleLabel,SegmentedLineEdge(),getShape(),getLineStyle(),getMiddleLabel(),getEndLabel(),setEndArrowHead(LgpadUml.ArrowHead;),setStartLabel(Ljava.lang.String;),setStartArrowHead(LgpadUml.ArrowHead;),draw(Ljava.awt.Graphics2D;),getConnectionPoints(),getStartLabel(),getEndArrowHead(),startLabel,startArrowHead,setLineStyle(LgpadUml.LineStyle;),getPoints()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,96"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,288"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gpadUml/ShapeEdge&lt;-gpadUml/SegmentedLineEdge" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="83,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="45,94"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0" name="ShapeEdge" location="88,60" size="92,94" id="gpadUml/ShapeEdge">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="72,48">
+      <children xsi:type="editmodel:MethodEditModel" name="contains" id="gpadUml/ShapeEdge#contains(Ljava.awt.geom.Point2D;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBounds" id="gpadUml/ShapeEdge#getBounds(Ljava.awt.Graphics2D;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShape" id="gpadUml/ShapeEdge#getShape()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=3"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
