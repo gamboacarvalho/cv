@@ -1,0 +1,399 @@
+<html>
+	<head>
+		<title>Jogo Othelo</title>
+		<style type="text/css">
+			body {
+				background-color: black;
+				text-align:center;
+			}
+			h1 {
+				text-align: center;
+				color: white; 
+				font-size: 3em;
+				margin-bottom:50px;
+			}
+			.marcadores {
+				height: 1px;
+			}
+			.titulo {
+      			margin:10px;
+			}
+			.pontosJogador {
+				float: left;
+				height: 150px;
+				width :150px;
+				text-align: center;
+				font-weight: bold;
+				font-size: 2em;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				margin-left: 10%;
+				color: lightblue;
+				border-color: white;
+				border-style: solid;
+				border-width: 2px; 
+				padding-top:10px;
+			}
+			.pontosJogador span {
+				border-style: outset;
+				background-color: black;
+			}
+			.pontosJogador span img {
+				vertical-align: middle;
+			}
+			.posicaoDireita {
+				background-Color:red;
+			}
+			.posicaoEsquerda {
+				background-Color:yellow;
+			}
+			.borda {
+				width: 30%;
+				background-color: lightblue;
+				border-style: groove;
+				border-width: 6px;
+				margin-top: 50px;
+			}
+			.celula {
+				padding: 4px;
+				border-style:groove; 
+				border-width: 3px;
+				width: 40px;
+				height:40px;
+			}
+			#novoJogo {
+				margin-top: 20px;
+				width: 67%;
+				font-size: 20px;
+				padding:5px;
+			}
+		</style>
+		<script type="text/javascript">
+		var jogo;
+		
+		function digitos(num){
+			return "imagens/digitos/" + num + "bar.gif";
+		}
+		
+		function fichas(nome){
+			return "imagens/fichas/" + nome + ".gif";
+		}
+
+		function init(){
+			jogo = new Ctrl();
+		}
+		
+		
+		function Ctrl(){		
+			this.pecas = new Array(8);
+			this.jogador1 = new Jogador("contador00","contador01","fichaamarela");
+			this.jogador2 = new Jogador("contador10","contador11","fichavermelha");
+			this.jogaFicha = new Celula("fichaJogada");
+			
+			this.novoJogo = function(){
+				var aux;
+				this.jogaFicha.setCor(2);
+				this.jogador1.setPontos(2);
+				this.jogador2.setPontos(2);
+				for (var l=0; l<8; l++){
+					for (var c=0; c<8; c++){
+						this.pecas[l][c].setClick(l,c,"novo");
+						/*
+						this.pecas[l][c].elem.onclick = function(){
+							alert(l + " " + c);
+							//jogo.jogaOnClick(l,c,true);
+						}
+						*/
+						aux = l * c;
+						if ((aux == 9) || (aux == 16)) this.pecas[l][c].setCor(1);
+						else {
+							if ((aux == 12) && ((l == 3) || (l == 4))) this.pecas[l][c].setCor(2);
+							else this.pecas[l][c].setCor(0);
+						}
+					}
+				}
+			}
+			
+			this.setFichas = function(){
+				for (var i=0; i<8; i++){
+					this.pecas[i] = new Array(8);
+					for (var j=0; j<8; j++){
+						this.pecas[i][j] = new Celula("i"+(i*8+j),i,j);
+					}
+				}
+			}
+			
+			this.jogaOnClick = function(l,c,executar){
+				if ((this.pecas[l][c].cor != 0) && (executar)) {
+					alert("Não é possível jogar aqui. Já existe uma ficha nesta posição.");
+					return;
+				}
+				
+				var no = this.analisaJogada(l,c,-1,-1);
+				var n = this.analisaJogada(l,c,-1,0);
+				var ne = this.analisaJogada(l,c,-1,1);
+				var e = this.analisaJogada(l,c,0,1);
+				var se = this.analisaJogada(l,c,1,1);
+				var s = this.analisaJogada(l,c,1,0);
+				var so = this.analisaJogada(l,c,1,-1);
+				var o = this.analisaJogada(l,c,0,-1);
+				
+				var jogadas = no + n + ne + e + se + s + so + o;
+				if (!executar) return jogadas;
+				if (jogadas == 0) {
+					alert("Jogada impossível");
+					return;
+				}
+				
+				this.executaJogada(l,c,-1,-1,no);
+				this.executaJogada(l,c,-1,0,n);
+				this.executaJogada(l,c,-1,1,ne);
+				this.executaJogada(l,c,0,1,e);
+				this.executaJogada(l,c,1,1,se);
+				this.executaJogada(l,c,1,0,s);
+				this.executaJogada(l,c,1,-1,so);
+				this.executaJogada(l,c,0,-1,o);
+				
+				this.terminaJogada();
+			}
+			
+			this.analisaJogada = function(l,c,horizontal,vertical){
+				var numFichas = 0;
+				var aux;
+				l += horizontal;
+				c += vertical;
+				if (this.jogaFicha.cor == 1) aux = 2;
+				else aux = 1;
+				if ((l < 0) || (l > 7)) return 0;
+				if ((c < 0) || (c > 7)) return 0;
+				while (this.pecas[l][c].cor == aux){
+					l += horizontal;
+					c += vertical;
+					numFichas++;
+					if ((l < 0) || (l > 7)) return 0;
+					if ((c < 0) || (c > 7)) return 0;
+				}
+				if (this.pecas[l][c].cor == this.jogaFicha.cor) return numFichas;
+				return 0;
+			}
+			
+			this.executaJogada = function(l,c,horizontal,vertical,numFichas){
+				if (numFichas == 0) return
+				for (var i=0; i<=numFichas; i++)
+					this.pecas[l+(horizontal*i)][c+(vertical*i)].setCor(this.jogaFicha.cor);
+			}
+			
+			this.terminaJogada = function(){
+				var possivel1 = this.proximoJogador();
+				var totalFichas = this.jogador1.pontos + this.jogador2.pontos;
+				
+				if ((this.jogador1.pontos == 0) || (this.jogador2.pontos == 0) || (totalFichas == 64)){
+					this.terminaJogo("Terminou o jogo.");
+					return;
+				}
+				
+				if (possivel1 < 1){
+					var possivel2 = this.proximoJogador();
+					if (possivel2 < 1) this.terminaJogo("Não há mais jogadas possíveis.");
+					else{
+						var aux = 1;
+						if (this.jogaFicha.cor == 1) aux = 2;
+						alert("Não existem jogadas possíveis para o jogador " + aux + ". Jogador " + this.jogaFicha.cor + " joga outra vez.");
+					}
+				}
+			}
+			
+			this.proximoJogador = function(){
+				if (this.jogaFicha.cor == 1) this.jogaFicha.setCor(2);
+				else this.jogaFicha.setCor(1);
+				
+				for (var i=0, amarelas=0, vermelhas=0, possivel=0; i<8; i++){
+					for (var j=0; j<8; j++){
+						if (this.pecas[i][j].cor == 1) amarelas++;
+						else{
+							if (this.pecas[i][j].cor == 2) vermelhas++;
+							else possivel += this.jogaOnClick(i,j,false);
+				}	}	}
+				this.jogador1.setPontos(amarelas);
+				this.jogador2.setPontos(vermelhas);
+				return possivel;
+			}
+			
+			this.terminaJogo = function(msg){
+				for (var l=0; l<8; l++)
+					for (var c=0; c<8; c++)
+						this.pecas[l][c].setClick(l,c,"fim");
+				var vencedor = this.jogador1.comparaPontos(this.jogador2);
+				if (vencedor == 0) vencedor = " Empate.";
+				else vencedor = " Jogador " + vencedor + " ganhou!";
+				alert(msg + vencedor);
+			}
+			
+			this.setFichas();
+			this.novoJogo();
+		}
+		
+		
+		function Jogador(id1,id2,cor){
+			this.decimas = document.getElementById(id1);
+			this.unidades = document.getElementById(id2);
+			this.ficha = fichas(cor);
+			this.pontos;
+						
+			this.setPontos = function(num){
+				var d1 = Math.floor(num/10);
+				var d2 = num-d1*10;
+				this.decimas.src = digitos(d1);
+				this.unidades.src = digitos(d2);
+				this.pontos = num;
+			}
+			
+			this.comparaPontos = function(adversario){
+				if (this.pontos > adversario.pontos) return 1;
+				if (this.pontos < adversario.pontos) return 2;
+				return 0;
+			}
+			
+		}
+		
+		function Celula(id,l,c){
+			this.elem = document.getElementById(id);
+			this.cor;
+
+			this.setClick = function(l,c,state){
+				if (state == "novo")
+					this.elem.onclick = function(){
+						jogo.jogaOnClick(l,c,true);
+					}
+				else this.elem.onclick = null;
+			}
+
+			this.setCor = function(num){
+				var aux;
+				this.cor = num;
+				if (num == 1) aux = "fichaamarela";
+				else {
+					if (num == 2) aux = "fichavermelha";
+					else aux = "areadeficha";
+				}
+				this.elem.src = fichas(aux);
+			}
+			
+		}
+		
+		</script>
+	</head>
+	<body onload="init();">
+		<h1>Jogo do Othello
+		</h1>
+		<div class="marcadores">
+			<div class="pontosJogador PosicaoEsquerda">
+				<div class="titulo">
+					Jogador1
+				</div>
+				<span id="joga1Img">
+					<img id="contador00" width="40" height="55"> <img id="contador01" width="40" height="55">
+				</span>
+			</div>
+			<div class="pontosJogador">
+				<div class="titulo">
+					JogaFicha
+				</div>
+				<img id="fichaJogada" width="58" height="58">
+			</div>
+			<div class="pontosJogador posicaoDireita">
+				<div class="titulo">
+					Jogador2
+				</div>
+				<span id="joga2Img">
+					<img id="contador10" width="40" height="55"> <img id="contador11" width="40" height="55">
+				</span>
+			</div>
+		</div>
+		<table class="borda" align="center">
+			<tr>
+				<td><img id="i0" class="celula" width="58" height="58"></td>
+				<td><img id="i1" class="celula" width="58" height="58"></td>
+				<td><img id="i2" class="celula" width="58" height="58"></td>
+				<td><img id="i3" class="celula" width="58" height="58"></td>
+				<td><img id="i4" class="celula" width="58" height="58"></td>
+				<td><img id="i5" class="celula" width="58" height="58"></td>
+				<td><img id="i6" class="celula" width="58" height="58"></td>
+				<td><img id="i7" class="celula" width="58" height="58"></td>
+			</tr>
+			<tr>
+				<td><img id="i8" class="celula" width="58" height="58"></td>
+				<td><img id="i9" class="celula" width="58" height="58"></td>
+				<td><img id="i10" class="celula" width="58" height="58"></td>
+				<td><img id="i11" class="celula" width="58" height="58"></td>
+				<td><img id="i12" class="celula" width="58" height="58"></td>
+				<td><img id="i13" class="celula" width="58" height="58"></td>
+				<td><img id="i14" class="celula" width="58" height="58"></td>
+				<td><img id="i15" class="celula" width="58" height="58"></td>
+			</tr>
+			<tr>
+				<td><img id="i16" class="celula" width="58" height="58"></td>
+				<td><img id="i17" class="celula" width="58" height="58"></td>
+				<td><img id="i18" class="celula" width="58" height="58"></td>
+				<td><img id="i19" class="celula" width="58" height="58"></td>
+				<td><img id="i20" class="celula" width="58" height="58"></td>
+				<td><img id="i21" class="celula" width="58" height="58"></td>
+				<td><img id="i22" class="celula" width="58" height="58"></td>
+				<td><img id="i23" class="celula" width="58" height="58"></td>
+			</tr>
+			<tr>
+				<td><img id="i24" class="celula" width="58" height="58"></td>
+				<td><img id="i25" class="celula" width="58" height="58"></td>
+				<td><img id="i26" class="celula" width="58" height="58"></td>
+				<td><img id="i27" class="celula" width="58" height="58"></td>
+				<td><img id="i28" class="celula" width="58" height="58"></td>
+				<td><img id="i29" class="celula" width="58" height="58"></td>
+				<td><img id="i30" class="celula" width="58" height="58"></td>
+				<td><img id="i31" class="celula" width="58" height="58"></td>
+			</tr>
+			<tr>
+				<td><img id="i32" class="celula" width="58" height="58"></td>
+				<td><img id="i33" class="celula" width="58" height="58"></td>
+				<td><img id="i34" class="celula" width="58" height="58"></td>
+				<td><img id="i35" class="celula" width="58" height="58"></td>
+				<td><img id="i36" class="celula" width="58" height="58"></td>
+				<td><img id="i37" class="celula" width="58" height="58"></td>
+				<td><img id="i38" class="celula" width="58" height="58"></td>
+				<td><img id="i39" class="celula" width="58" height="58"></td>
+			</tr>
+			<tr>
+				<td><img id="i40" class="celula" width="58" height="58"></td>
+				<td><img id="i41" class="celula" width="58" height="58"></td>
+				<td><img id="i42" class="celula" width="58" height="58"></td>
+				<td><img id="i43" class="celula" width="58" height="58"></td>
+				<td><img id="i44" class="celula" width="58" height="58"></td>
+				<td><img id="i45" class="celula" width="58" height="58"></td>
+				<td><img id="i46" class="celula" width="58" height="58"></td>
+				<td><img id="i47" class="celula" width="58" height="58"></td>
+			</tr>
+			<tr>
+				<td><img id="i48" class="celula" width="58" height="58"></td>
+				<td><img id="i49" class="celula" width="58" height="58"></td>
+				<td><img id="i50" class="celula" width="58" height="58"></td>
+				<td><img id="i51" class="celula" width="58" height="58"></td>
+				<td><img id="i52" class="celula" width="58" height="58"></td>
+				<td><img id="i53" class="celula" width="58" height="58"></td>
+				<td><img id="i54" class="celula" width="58" height="58"></td>
+				<td><img id="i55" class="celula" width="58" height="58"></td>
+			</tr>
+			<tr>
+				<td><img id="i56" class="celula" width="58" height="58"></td>
+				<td><img id="i57" class="celula" width="58" height="58"></td>
+				<td><img id="i58" class="celula" width="58" height="58"></td>
+				<td><img id="i59" class="celula" width="58" height="58"></td>
+				<td><img id="i60" class="celula" width="58" height="58"></td>
+				<td><img id="i61" class="celula" width="58" height="58"></td>
+				<td><img id="i62" class="celula" width="58" height="58"></td>
+				<td><img id="i63" class="celula" width="58" height="58"></td>
+			</tr>
+		</table>
+		<br />
+		<br />
+		<input id="novoJogo" type="button" value="Novo Jogo" onclick="jogo.novoJogo();">
+	</body>
+</html>
