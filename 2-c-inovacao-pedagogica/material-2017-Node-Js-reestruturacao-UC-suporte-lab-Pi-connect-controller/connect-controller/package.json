@@ -1,0 +1,35 @@
+{
+  "name": "connect-controller",
+  "version": "2.0.2",
+  "description": "connect/express Middleware builder for Plain Controller Objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/nodeunit/bin/nodeunit --report lcovonly -- tests && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "istanbul-windows": "node_modules\\.bin\\istanbul cover node_modules\\nodeunit\\bin\\nodeunit -- tests"
+  },
+  "keywords": [
+    "connect",
+    "express",
+    "controller",
+    "middleware",
+    "mvc"
+  ],
+  "author": "Miguel Gamboa <miguelgamboa@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CCISEL/connect-controller.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.5.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.7",
+    "connect": "^3.5.0",
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
+    "nodeunit": "^0.10.2",
+    "q": "^1.4.1"
+  }
+}

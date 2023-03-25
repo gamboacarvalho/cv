@@ -1,0 +1,13 @@
+<div class="panel panel-default affix">
+    <div class="panel-heading">
+        <h4>Favorite Teams</h4>
+    </div>
+    <div class="panel">
+        <!-- List group -->
+        <ul class="list-group" id="favoritesList">
+            {{#each @favoritesList}}
+                {{> favItem }}
+            {{/each}}
+        </ul>
+    </div>
+</div>

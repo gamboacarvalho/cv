@@ -1,0 +1,26 @@
+{{#extend "title"}}League Table{{/extend}}
+
+<div class="container">
+    <h1>{{caption}}</h1>
+</div>
+<div class="container well">
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Position</th><th>Team Name</th><th>Points</th><th>Favorite</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each teams}}
+                <tr>
+                    <td>{{position}}</td>
+                    <td>{{name}}</td>
+                    <td>{{points}}</td>
+                    <td><input type="checkbox" onclick="favoritesHandler({{id}}, this)"/></td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>
