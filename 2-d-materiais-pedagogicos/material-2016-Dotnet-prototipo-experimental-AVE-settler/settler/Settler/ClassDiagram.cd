@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Settler.Fixture&lt;T&gt;">
+    <Position X="2.75" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAACACAAAAAAAAAAAAAICAAIAAAAAAAACAA=</HashCode>
+      <FileName>Fixture.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Settler.Fixtures.AbstractEntityFixture&lt;T&gt;">
+    <Position X="3.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Fixtures\EntityFixture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settler.Fixtures.EntityFixtureByCtorArgs&lt;T&gt;">
+    <Position X="4.25" Y="7" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAACAAAAAAAAAAgAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fixtures\EntityFixture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settler.Fixtures.EntityFixtureByFields&lt;T&gt;">
+    <Position X="0.75" Y="7" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAACAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fixtures\EntityFixture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settler.Fixtures.IntAutoFixture">
+    <Position X="8.25" Y="5.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Settler.Fixtures.IntAutoFixture.IntFixture" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fixtures\IntFixture.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAIAAAAAEIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fixtures\IntFixture.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Settler.IFixture">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFixture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Settler.IFixture&lt;T&gt;">
+    <Position X="6.5" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAICAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFixture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Settler.IAutoFixture">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAEIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAutoFixture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="9.16" />
+</ClassDiagram>
