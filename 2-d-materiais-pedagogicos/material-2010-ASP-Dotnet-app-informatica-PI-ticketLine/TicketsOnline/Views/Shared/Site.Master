@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+    <link href="<%=Url.Content("~/Content/Styles/Site.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%=Url.Content("~/Content/Styles/MainPage.css") %>" rel="stylesheet"
+        type="text/css" />
+    <link href="<%=Url.Content("~/Content/Styles/MenuFrame.css") %>" rel="stylesheet"
+        type="text/css" />
+    <script src="<%=Url.Content("~/Scripts/Views/GlobalFunctions.js") %>" type="text/javascript"></script>
+    <script src="<%=Url.Content("~/Scripts/MicrosoftAjax.js") %>" type="text/javascript"></script>
+    <script src="<%=Url.Content("~/Scripts/MicrosoftMvcAjax.js") %>" type="text/javascript"></script>
+    <script src="<%=Url.Content("~/Scripts/jquery-1.4.1.min.js") %>" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="HeaderContent" runat="server" />
+</head>
+<body>
+    <h1>
+        Tickets Online</h1>
+    <div id="login_frame" class="frame">
+        <%Html.RenderPartial("LogOnUserControl"); %>
+    </div>
+    <div id="basket_frame" class="frame">
+        <%Html.RenderAction("CartBasket", "Cart"); %>
+    </div>
+    <div id="menu_frame" class="frame">
+        <div id="buttons">
+            <ul>
+                <li title="Página inicial">
+                    <%=Html.ActionLink("Home", "Index", "Home") %></li>
+                <li title="Ver salas e espectáculos bem como reservar lugares">
+                    <%=Html.ActionLink("Salas de Espectáculos", "Index", "Shows") %></li>
+                <li title="Listagem de todas as reservas feitas por si">
+                    <%=Html.ActionLink("Lista de Reservas", "Index", "Reserves") %></li>
+                <li title="Listagem de lugares que estão escolhidos para reserva">
+                    <%=Html.ActionLink("Carrinho de compras", "Index", "Cart") %></li>
+                <%if (Page.User.IsInRole("admin"))
+                  {
+                %>
+                <li title="Zona exclusiva para administradores de sistema">
+                    <%=Html.ActionLink("Administração", "Index", "Admin") %></li>
+                <%
+                    } %>
+            </ul>
+        </div>
+    </div>
+    <div id="main_frame" class="frame">
+        <p id="error">
+            <%=ViewData["error"] %>
+        </p>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        <div id="footer">
+            João Simões, 30837, Programação na Internet @ISEL, SV 09/10
+        </div>
+    </div>
+</body>
+</html>

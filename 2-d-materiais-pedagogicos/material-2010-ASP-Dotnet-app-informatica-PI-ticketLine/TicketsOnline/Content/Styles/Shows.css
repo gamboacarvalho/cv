@@ -1,0 +1,51 @@
+﻿.chair
+{
+    border-color: Black;
+    border-style: solid;
+    border-width: 1px;
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+.free:hover
+{
+    background-color: Aqua;
+    border-color: Gray;
+}
+
+.empty
+{
+    background-color: White;
+    border-color: White;
+}
+
+.reserved
+{
+    background-color: Red;
+}
+
+.free
+{
+    background-color: Lime;
+}
+
+.selected
+{
+    background-color: Olive;
+}
+
+.row
+{
+    display: table-row;
+}
+
+.commentBox
+{
+    width: 400px;
+}
+.commentUserText
+{
+    display: block;
+    width: 400px;
+}

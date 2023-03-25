@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1FA9BF2D-E41B-4626-875D-3AEED01B18AE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Repository</RootNamespace>
+    <AssemblyName>Repository</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataObjets\Admin.cs" />
+    <Compile Include="DataObjets\Comment.cs" />
+    <Compile Include="DataObjets\Login.cs" />
+    <Compile Include="DataObjets\PreReserve.cs" />
+    <Compile Include="DataObjets\Reserve.cs" />
+    <Compile Include="DataObjets\Room.cs" />
+    <Compile Include="DataObjets\Session.cs" />
+    <Compile Include="DataObjets\Show.cs" />
+    <Compile Include="DataObjets\Client.cs" />
+    <Compile Include="DataObjets\User.cs" />
+    <Compile Include="DataRepository.cs" />
+    <Compile Include="Factories\CommentMapperFactory.cs" />
+    <Compile Include="Factories\LoginMapperFactory.cs" />
+    <Compile Include="Factories\ReserveMapperFactory.cs" />
+    <Compile Include="Factories\RoomMapperFactory.cs" />
+    <Compile Include="Factories\SessionMapperFactory.cs" />
+    <Compile Include="Factories\ShowMapperFactory.cs" />
+    <Compile Include="Factories\UserMapperFactory.cs" />
+    <Compile Include="Mappers\CommentMapperMemory.cs" />
+    <Compile Include="Mappers\LoginMapperMemory.cs" />
+    <Compile Include="Mappers\ReserveMapperMemory.cs" />
+    <Compile Include="Mappers\RoomMapperMemory.cs" />
+    <Compile Include="Mappers\SessionMapperMemory.cs" />
+    <Compile Include="Mappers\ShowMapperMemory.cs" />
+    <Compile Include="Mappers\UserMapperMemory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RepositoryInterfaces\RepositoryInterfaces.csproj">
+      <Project>{883B76F9-3EE6-40BF-9A64-B0D9AC834DBD}</Project>
+      <Name>RepositoryInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

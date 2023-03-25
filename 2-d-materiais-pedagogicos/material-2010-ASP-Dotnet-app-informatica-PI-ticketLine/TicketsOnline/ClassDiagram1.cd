@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TicketsOnline.Controllers.AccountController" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAQAAgBAAAEABEAAAQAAAA=</HashCode>
+      <FileName>Controllers\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Controllers.AdminController" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABkAAAAAAIEAAAAAAAA=</HashCode>
+      <FileName>Controllers\AdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Controllers.CartController" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAEAAAAAACAgIAAABAAAAAAAIEiAAAAAAA=</HashCode>
+      <FileName>Controllers\CartController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Controllers.HomeController" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Controllers.ReservesController" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAIEAAAAAAAA=</HashCode>
+      <FileName>Controllers\ReservesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Controllers.ShowsController" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAEAAAAAABAABAEAAAAAAgAAAAAAIEAAAAAAAA=</HashCode>
+      <FileName>Controllers\ShowsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.MvcApplication" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Models.RegisterFormModel" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAACAAAAQAAAAQAAAAAAAACAAAAAIAAAAA=</HashCode>
+      <FileName>Models\FormModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Models.LogOnFormModel" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FormModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Models.ManageFormModel" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAABAAAAYAAAAAAAACAAAAAIAAAAA=</HashCode>
+      <FileName>Models\FormModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Models.CommentFormModel" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAEAAAAAAAAAIAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FormModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Models.MenuButtonControlModel" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQ=</HashCode>
+      <FileName>Models\ParcialViewsModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Models.ShowsSelectorControlModel" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAIEAAAIAAAAAAAAAAAAAAAAAAAAAAAAU=</HashCode>
+      <FileName>Models\ParcialViewsModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Models.SelectorOptionModel" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Models\ParcialViewsModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Models.StarRatingControlModel" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ParcialViewsModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Models.CartIndexModel" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAgAAIAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Models\ViewsModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Models.CartReserveModel" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgABAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Models\ViewsModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Models.AdminModel" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewsModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicketsOnline.Utils.ExtensionMethods" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\ExtensionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

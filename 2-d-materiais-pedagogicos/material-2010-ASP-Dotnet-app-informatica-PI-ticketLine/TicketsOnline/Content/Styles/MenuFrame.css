@@ -1,0 +1,41 @@
+﻿div #buttons form input
+{
+    width: 180px;
+}
+div #buttons
+{
+    position: absolute;
+    top: 100px;
+    width: 180px;
+}
+div#buttons ul
+{
+    display: block;
+    list-style-type: none;
+    padding: 0px;
+}
+div#buttons li:hover
+{
+    border: 3px dotted #B6B6B6;
+}
+div#buttons li
+{
+    display: block;
+    border: 3px dashed #D2D2D2;
+    margin-bottom: 4px;
+}
+div#buttons a:hover
+{
+    display: block;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+div#buttons a
+{
+    display: block;
+    color: #6C6C6C;
+    font-weight: bold;
+    background-color: buttonface;
+    text-align: center;
+    text-decoration: none;
+}
