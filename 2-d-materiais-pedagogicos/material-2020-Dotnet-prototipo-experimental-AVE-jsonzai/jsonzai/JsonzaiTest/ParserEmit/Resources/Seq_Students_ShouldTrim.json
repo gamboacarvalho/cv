@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "AAA",
+        "Nr": 0,
+
+
+        "Group": 10,
+        "GithubId": "git0"
+    },
+
+    {
+        "Name": "BBB",
+        "Nr": 1,
+        "Group": 11,
+
+        "GithubId": "git1"
+    },
+    {
+        "Name": "CCC",
+
+        "Nr": 2,
+        "Group": 12,
+        "GithubId": "git2"
+    }
+
+]
