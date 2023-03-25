@@ -1,0 +1,71 @@
+######## 04-04-2022 - Version 3 - JsonParserDynamicPoet via setProperty rather than field
+
+Benchmark                                                 Mode  Cnt     Score     Error   Units
+JsonParserBenchmark.parseDateDynamicPoet                 thrpt    4  1268,322   24,057  ops/ms (usa UNSAFE allocate instace. Com createInstance() dá metade)
+JsonParserBenchmark.parseDateReflectCtor                 thrpt    4    22,667    1,768  ops/ms
+JsonParserBenchmark.parseDateReflectProps                thrpt    4   265,296   16,925  ops/ms
+JsonParserBenchmark.parseDateUnsafe                      thrpt    4   867,068   80,067  ops/ms
+----------------------------------------------------------------------------------------------
+JsonParserBenchmark.parsePersonAndBirthDateDynamicPoet   thrpt    4   666,273   89,471  ops/ms
+JsonParserBenchmark.parsePersonAndBirthDateReflectCtor   thrpt    4    16,851    1,805  ops/ms
+JsonParserBenchmark.parsePersonAndBirthDateReflectProps  thrpt    4   219,460    5,205  ops/ms
+JsonParserBenchmark.parsePersonAndBirthDateUnsafe        thrpt    4   724,017   13,030  ops/ms
+----------------------------------------------------------------------------------------------
+JsonParserBenchmark.parsePersonDynamicPoet               thrpt    4  2122,907  141,270  ops/ms
+JsonParserBenchmark.parsePersonReflectCtor               thrpt    4   554,085   15,006  ops/ms
+JsonParserBenchmark.parsePersonReflectProps              thrpt    4  1870,387  128,503  ops/ms
+JsonParserBenchmark.parsePersonUnsafe                    thrpt    4  2182,059  130,417  ops/ms
+
+######## 23-02-2022 - Version 2 - With JsonParserDynamicPoet
+
+Benchmark                                                 Mode  Cnt     Score     Error   Units
+JsonParserBenchmark.parseDateDynamicPoet                 thrpt    4  2139,791  173,442  ops/ms
+JsonParserBenchmark.parseDateReflectCtor                 thrpt    4    22,961    1,483  ops/ms
+JsonParserBenchmark.parseDateReflectProps                thrpt    4   291,440   74,855  ops/ms
+JsonParserBenchmark.parseDateUnsafe                      thrpt    4  2081,142  108,554  ops/ms
+----------------------------------------------------------------------------------------------
+JsonParserBenchmark.parsePersonAndBirthDateDynamicPoet   thrpt    4  1139,079   45,055  ops/ms
+JsonParserBenchmark.parsePersonAndBirthDateReflectCtor   thrpt    4    20,064    0,901  ops/ms
+JsonParserBenchmark.parsePersonAndBirthDateReflectProps  thrpt    4   255,838   15,546  ops/ms
+JsonParserBenchmark.parsePersonAndBirthDateUnsafe        thrpt    4  1139,513  183,214  ops/ms
+----------------------------------------------------------------------------------------------
+JsonParserBenchmark.parsePersonDynamicPoet               thrpt    4  3720,239   48,946  ops/ms
+JsonParserBenchmark.parsePersonReflectCtor               thrpt    4   906,372  199,802  ops/ms
+JsonParserBenchmark.parsePersonReflectProps              thrpt    4  2866,129  113,618  ops/ms
+JsonParserBenchmark.parsePersonUnsafe                    thrpt    4  3762,965  461,939  ops/ms
+
+
+######## 23-02-2022 - Version 2 - Setter as interface { fun apply(target: Any, tokens: JsonTokens) }
+#
+# Enhanced parsePersonReflectProps for single field object, e.g. "{ name: \"Ze Manel\" }"
+# .... no boxing / unboxing overheads
+#
+
+Benchmark                                                 Mode  Cnt     Score     Error   Units
+JsonParserBenchmark.parseDateReflectCtor                 thrpt    4    22,992    1,621  ops/ms
+JsonParserBenchmark.parseDateReflectProps                thrpt    4   308,422   15,959  ops/ms
+JsonParserBenchmark.parseDateUnsafe                      thrpt    4  2058,320  184,461  ops/ms
+----------------------------------------------------------------------------------------------
+JsonParserBenchmark.parsePersonAndBirthDateReflectCtor   thrpt    4    19,979    3,135  ops/ms
+JsonParserBenchmark.parsePersonAndBirthDateReflectProps  thrpt    4   256,408   17,991  ops/ms
+JsonParserBenchmark.parsePersonAndBirthDateUnsafe        thrpt    4  1135,154  134,273  ops/ms
+----------------------------------------------------------------------------------------------
+JsonParserBenchmark.parsePersonReflectCtor               thrpt    4   866,104  147,059  ops/ms
+JsonParserBenchmark.parsePersonReflectProps              thrpt    4  2810,867   89,812  ops/ms
+JsonParserBenchmark.parsePersonUnsafe                    thrpt    4  3732,200  150,783  ops/ms
+
+######## 21-02-2022 - Version 1 - Setter as typealias (target: Any, tokens: JsonTokens) -> Unit
+
+
+Benchmark                                                 Mode  Cnt     Score      Error   Units
+JsonParserBenchmark.parseDateReflectCtor                 thrpt    4    20,827     7,532  ops/ms
+JsonParserBenchmark.parseDateReflectProps                thrpt    4   295,506    13,370  ops/ms
+JsonParserBenchmark.parseDateUnsafe                      thrpt    4  1736,947   843,463  ops/ms
+----------------------------------------------------------------------------------------------
+JsonParserBenchmark.parsePersonAndBirthDateReflectCtor   thrpt    4    19,105     7,118  ops/ms
+JsonParserBenchmark.parsePersonAndBirthDateReflectProps  thrpt    4   262,932    10,680  ops/ms
+JsonParserBenchmark.parsePersonAndBirthDateUnsafe        thrpt    4  1076,916    79,966  ops/ms
+----------------------------------------------------------------------------------------------
+JsonParserBenchmark.parsePersonReflectCtor               thrpt    4   902,959    28,582  ops/ms
+JsonParserBenchmark.parsePersonReflectProps              thrpt    4  1441,673   127,681  ops/ms
+JsonParserBenchmark.parsePersonUnsafe                    thrpt    4  3412,874  1350,205  ops/ms

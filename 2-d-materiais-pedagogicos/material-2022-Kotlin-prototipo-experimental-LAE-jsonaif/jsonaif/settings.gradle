@@ -1,0 +1,9 @@
+pluginManagement {
+  plugins {
+        id 'org.jetbrains.kotlin.jvm' version "1.6.10"
+    }
+}
+
+rootProject.name = 'app05-jsonaif'
+include('jsonaif')
+include('jsonaif-bench')
