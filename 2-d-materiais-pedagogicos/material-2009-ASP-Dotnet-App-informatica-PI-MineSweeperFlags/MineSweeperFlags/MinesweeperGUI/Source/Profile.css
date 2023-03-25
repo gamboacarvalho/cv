@@ -1,0 +1,76 @@
+﻿body
+{
+	font-family: Verdana;
+	color: White;
+	text-align: center;
+	background:black;
+}
+a:link, a:visited, a:hover, a:active
+{
+    color: White;
+    text-decoration: underline;
+}
+h1
+{	
+	font-size: x-large;
+}
+.divBackGround
+{
+	position: static;
+	padding-top:5%;
+	width: 600px;
+	height: 410px;  
+    background-image: url(../Images/BackGround.png);	
+	text-align: center;
+	margin: 0px auto;
+}
+.divEmailLogin
+{
+	font-weight: bold;
+	background-color: #5B5B5B;
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.divTittle
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	font-size: x-large;
+	font-weight: bold;	
+}
+.divProfile
+{
+	position: relative;
+	float: left;
+	width: 100%;	
+	background-color: #5B5B5B;
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.divProfileLine
+{
+	position: relative;
+	float: left;
+	top: 2%;
+	width: 100%;
+}
+.divProfileText
+{
+	position: relative;
+	float: left;
+	width: 45%;
+	text-align: right;	
+}
+.divProfileControls
+{
+	position: relative;
+	float: left;
+	width: 50%;
+	text-align: left;
+	left: 1%;
+}

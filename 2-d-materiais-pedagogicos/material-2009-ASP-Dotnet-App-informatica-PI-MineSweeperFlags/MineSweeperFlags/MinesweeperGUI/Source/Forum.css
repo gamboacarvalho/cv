@@ -1,0 +1,182 @@
+﻿body
+{
+	color: White;
+	font-family: Verdana;
+	background-color:Black;
+}
+button
+{
+	background-color: #D2D2D2;
+	width: 90%;
+	left: 5%;	
+	color: Black;
+	border: 0px;
+	margin: 1%;
+	text-align:center;
+	font-weight: bold;
+	font-size: 90%;
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.forumBackGround
+{
+	position: static;
+	width: 700px;
+	height: 550px;
+    /*background-image: url(/Images/BackGround.png); */
+	text-align: center;
+	margin: 0px auto;
+	/*border: solid 1px Black;*/
+}
+.forumLeftBar
+{
+	position: relative;
+	float: left;	
+	left: 2%;
+	top: 4%;
+	width: 30%;
+	height: 50%;	
+	font-weight: bold;
+	background-color: #5B5B5B;
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.forumLeftBar #forumThreadEntry input
+{
+	width:100%;
+}
+.forumContent
+{
+	position: relative;
+	overflow:auto;	
+	float: left;
+	left: 5%;
+	top: 4%;
+	width: 63%;
+	height: 450px;
+	font-weight: bold;	
+	background-color: #5B5B5B;
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.forumContent #threadListTitle
+{
+	position:relative;
+	height:10%;
+	vertical-align:middle;
+	text-align:center;
+	color:#f5f5f5;
+	font-size:larger;
+
+}
+.forumContent #thread
+{
+	height:40px;
+	background-color:#292929;
+	font-weight:normal;
+	font-size:small;
+}
+
+.forumContent #thread:hover
+{
+	background-color:#339900;
+}
+
+
+.forumContent #thread #threadTitle
+{
+	height:60%;
+	position:relative;
+	text-align:left;
+
+}
+.forumContent #thread #threadTitle.Odd
+{
+	background-color:Gray;
+}
+.forumContent #thread #threadTitle.Even
+{
+	background-color:White;
+}
+.forumContent #thread #threadTitle a:link,
+.forumContent #thread #threadTitle a:visited,
+.forumContent #thread #threadTitle a:hover,
+.forumContent #thread #threadTitle a:active
+{
+	color:Black;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:small;
+	text-align:left;
+}
+
+
+.forumContent #thread #threadFooter
+{
+	position:relative;
+	height:40%;
+	background-color:#454545;
+	font-weight:normal;
+	font-size:x-small;
+	text-align:right;
+}
+.forumContent #threadSeparator
+{
+	position:relative;
+	height:2%;
+}
+
+.forumContent #postListTitle
+{
+	position:relative;
+	height:10%;
+	vertical-align:middle;
+	text-align:center;
+	color:#f5f5f5;
+	font-size:larger;
+
+}
+.forumContent #post
+{
+	height:60px;
+	background-color:#292929;
+	font-weight:normal;
+	font-size:small;
+}
+
+.forumContent #post #postTitle
+{
+	height:30%;
+	position:relative;
+	text-align:left;
+	background-color:Gray;
+}
+
+
+.forumContent #post #postBody
+{
+	height:50%;
+	background-color:White;
+	color:Black;
+}
+
+.forumContent #post #postFooter
+{
+	position:relative;
+	height:20%;
+	background-color:#454545;
+	font-weight:normal;
+	font-size:x-small;
+	text-align:right;
+}
+.forumContent #postSeparator
+{
+	position:relative;
+	height:1%;
+}
