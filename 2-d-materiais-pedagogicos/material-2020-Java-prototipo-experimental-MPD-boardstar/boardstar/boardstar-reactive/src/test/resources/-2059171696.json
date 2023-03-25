@@ -1,0 +1,814 @@
+{
+  "games": [
+    {
+      "id": "TAAifFP590",
+      "name": "Root",
+      "year_published": 2018,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 60,
+      "max_playtime": 90,
+      "min_age": 10,
+      "description": "Find adventure in this marvelous asymmetric game. Root provides limitless replay value as you and your friends explore the unique factions all wanting to rule a fantastic forest kingdom. Play as the Marquise de Cat and dominate the woods, extracting its riches and policing its inhabitants, as the Woodland Alliance, gathering supporters and coordinate revolts against the ruling regime, the Eyrie Dynasties, regaining control of the woods while keeping your squabbling court at bay, or as the Vagabond, seeking fame and fortune as you forge alliances and rivalries with the other players. Each faction has its own play style and paths to victory, providing an immersive game experience you will want to play again and again.",
+      "description_preview": "Find adventure in this marvelous asymmetric game. Root provides limitless replay value as you and your friends explore the unique factions all wanting to rule a fantastic forest kingdom. Play as the Marquise de Cat and dominate the woods, extracting its riches and policing its inhabitants, as the Woodland Alliance, gathering supporters and coordinate revolts against the ruling regime, the Eyrie Dynasties, regaining control of the woods while keeping your squabbling court at bay, or as the Vagabond, seeking fame and fortune as you forge alliances and rivalries with the other players. Each faction has its own play style and paths to victory, providing an immersive game experience you will want to play again and again.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1540147295104",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1540147295104",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1540147295104",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1540147295104",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1540147295104",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1540147295104",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1540147295104"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/TAAifFP590/root",
+      "price": "42.99",
+      "msrp": "60.00",
+      "discount": "0.28",
+      "primary_publisher": "Leder Games",
+      "publishers": [
+        "Leder Games"
+      ],
+      "mechanics": [
+        {
+          "id": "PGjmKGi26h"
+        },
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "amcImLdOmD"
+        },
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "yu3eas6v7A"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "MEAoOygZsA"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "ssZjU3HETz"
+        }
+      ],
+      "designers": [
+        "Cole Wehrle",
+        "Patrick Leder"
+      ],
+      "developers": [],
+      "artists": [
+        "Kyle Ferrin"
+      ],
+      "names": [
+        "root ",
+        "Root ",
+        "Root",
+        "Root"
+      ],
+      "num_user_ratings": 170,
+      "average_user_rating": 3.85211115120895,
+      "official_url": "http://ledergames.com/root/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://drive.google.com/drive/folders/1i9-iCUDzfGMs7HjFHhahwMS6efvvfX5w",
+      "weight_amount": 4,
+      "weight_units": "lbs ",
+      "size_height": 11.4,
+      "size_width": 8.9,
+      "size_depth": 2.9,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 1260,
+      "reddit_week_count": 6,
+      "reddit_day_count": 11,
+      "historical_low_price": 12.37,
+      "historical_low_date": {
+        "$date": "2019-02-13T20:33:09.360Z"
+      }
+    },
+    {
+      "id": "hR5nHkCzr5",
+      "name": "Forbidden Stars",
+      "year_published": 2015,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 120,
+      "max_playtime": 180,
+      "min_age": 14,
+      "description": "The shifting Warp Storms that surround the lost Herakon Cluster have finally abated, leaving ancient treasures and planets open to the rest of the galaxy. Now, the great factions of the galaxy mobilize their fleets and race to establish a foothold. The reward for successful domination is beyond calculation, and the price for conquering this sector will be paid in lives. <br />\r\n<br />\r\nForbidden Stars challenges you and up to three other players to take command of a mighty fighting force: the Ultramarines chapter of Space Marines, the Eldar of Craftworld Iyanden, the Evil Sunz Ork clan, or the World Eaters Warband of the Chaos Space Marines. Each faction offers unique armies and play styles, but your goal remains the same - to claim the key objectives selected for your faction. These objective tokens are scattered throughout the Herakon Cluster, but your opponents are sure to defend your objectives against you. You'll need to build massive armies and command them in unending war to best your enemies and claim your objectives. The fight for the Herakon Cluster is brutal and bloody, and you will either stride triumphant over the bodies of your fallen foes, or they will do the same to you.",
+      "description_preview": "The shifting Warp Storms that surround the lost Herakon Cluster have finally abated, leaving ancient treasures and planets open to the rest of the galaxy. Now, the great factions of the galaxy mobilize their fleets and race to establish a foothold. The reward for successful domination is beyond calculation, and the price for conquering this sector will be paid in lives.  \r\n \r\nForbidden Stars challenges you and up to three other players to take command of a mighty fighting force: the Ultramarines chapter of Space Marines, the Eldar of Craftworld Iyanden, the Evil Sunz Ork clan, or the World Eaters Warband of the Chaos Space Marines. Each faction offers unique armies and play styles, but your goal remains the same - to claim the key objectives selected for your faction. These objective tokens are scattered throughout the Herakon Cluster, but your opponents are sure to defend your objectives against you. You'll need to build massive armies and command them in unending war to best your enemies and claim your objectives. The fight for the Herakon Cluster is brutal and bloody, and you will either stride triumphant over the bodies of your fallen foes, or they will do the same to you.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255102497-516vqwN4rqL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255102497-516vqwN4rqL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559255102497-516vqwN4rqL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559255102497-516vqwN4rqL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559255102497-516vqwN4rqL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559255102497-516vqwN4rqL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255102497-516vqwN4rqL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/hR5nHkCzr5/forbidden-stars",
+      "price": "259.99",
+      "msrp": "84.99",
+      "discount": "-2.06",
+      "primary_publisher": "Fantasy Flight Games",
+      "publishers": [
+        "Fantasy Flight Games"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "U3zhCQH7Et"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [
+        {
+          "id": "3B3QpKvXD3"
+        },
+        {
+          "id": "ssZjU3HETz"
+        }
+      ],
+      "designers": [
+        "Samuel Bailey",
+        "James Kniffen",
+        "Corey Konieczka"
+      ],
+      "developers": [],
+      "artists": [],
+      "names": [
+        "Forbidden Stars"
+      ],
+      "num_user_ratings": 52,
+      "average_user_rating": 3.442307692307692,
+      "official_url": "https://www.fantasyflightgames.com/en/news/2015/3/17/forbidden-stars/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://www.fgbradleys.com/rules/rules4/Forbidden%20Stars%20-%20rules.pdf",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 183,
+      "reddit_week_count": 1,
+      "reddit_day_count": 0,
+      "historical_low_price": 82,
+      "historical_low_date": {
+        "$date": "2019-11-08T12:24:07.999Z"
+      }
+    },
+    {
+      "id": "f5AHZDQ72M",
+      "name": "1817",
+      "year_published": 2010,
+      "min_players": 3,
+      "max_players": 7,
+      "min_playtime": 300,
+      "max_playtime": 480,
+      "min_age": 16,
+      "description": "<div>1817 is a railroad operations and share trading board game in the 18xx series, designed by Craig Bartell and Tim Flowers. The main differentiator is the ability to short companies, that is to sell shares you don't have.</div><div><br /></div><div>This is the same edition as is sold by Deep Thought Games. All-Aboard Games offers priority availability (get the game within about a month or less). This game is still available from Deep Thought Games with the normal pricing, options, and ordering process.</div>",
+      "description_preview": " 1817 is a railroad operations and share trading board game in the 18xx series, designed by Craig Bartell and Tim Flowers. The main differentiator is the ability to short companies, that is to sell shares you don't have.     This is the same edition as is sold by Deep Thought Games. All-Aboard Games offers priority availability (get the game within about a month or less). This game is still available from Deep Thought Games with the normal pricing, options, and ordering process. ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541009274611",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541009274611",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1541009274611",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1541009274611",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1541009274611",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1541009274611",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541009274611"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/f5AHZDQ72M/1817",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "",
+      "publishers": [],
+      "mechanics": [
+        {
+          "id": "AZxlPpi5oq"
+        },
+        {
+          "id": "c6gkRM7rSy"
+        },
+        {
+          "id": "jbLrZb1xIb"
+        },
+        {
+          "id": "8PN2HE86wg"
+        }
+      ],
+      "categories": [
+        {
+          "id": "ssZjU3HETz"
+        }
+      ],
+      "designers": [
+        "Craig Bartell",
+        "Tim Flowers"
+      ],
+      "developers": [],
+      "artists": [
+        "(Uncredited)"
+      ],
+      "names": [],
+      "num_user_ratings": 4,
+      "average_user_rating": 0,
+      "official_url": "http://www.all-aboardgames.com/home/bartell-flowers-s-1817?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 62,
+      "reddit_week_count": 1,
+      "reddit_day_count": 1
+    },
+    {
+      "id": "LZM8VP9UpT",
+      "name": "A Game of Thrones: The Board Game Second Edition",
+      "year_published": 2011,
+      "min_players": 3,
+      "max_players": 6,
+      "min_playtime": 120,
+      "max_playtime": 240,
+      "min_age": 14,
+      "description": "Based on the best-selling novel series A Song of Ice and Fire by George R. R. Martin, A Game of Thrones: The Board Game Second Edition lets 3-6 players take control of the great houses of Westeros in an epic struggle to claim the Iron Throne.<br />\r\n<br />\r\nThe updated second edition brings a host of enhancements to your A Game of Thrones experience. It incorporates elements from previous expansions, including ports, garrisons, Wildling cards, and Siege engines, while introducing welcome new innovations. Convenient player screens will hide your underhanded dealings from prying eyes, while new Tides of Battle cards convey the uncertainty of war. This, along with updated graphics and a clarified ruleset, means the time has never been better to claim the Iron Throne.",
+      "description_preview": "Based on the best-selling novel series A Song of Ice and Fire by George R. R. Martin, A Game of Thrones: The Board Game Second Edition lets 3-6 players take control of the great houses of Westeros in an epic struggle to claim the Iron Throne. \r\n \r\nThe updated second edition brings a host of enhancements to your A Game of Thrones experience. It incorporates elements from previous expansions, including ports, garrisons, Wildling cards, and Siege engines, while introducing welcome new innovations. Convenient player screens will hide your underhanded dealings from prying eyes, while new Tides of Battle cards convey the uncertainty of war. This, along with updated graphics and a clarified ruleset, means the time has never been better to claim the Iron Throne.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559253937201-61TIielKgKL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559253937201-61TIielKgKL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559253937201-61TIielKgKL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559253937201-61TIielKgKL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559253937201-61TIielKgKL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559253937201-61TIielKgKL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559253937201-61TIielKgKL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/LZM8VP9UpT/a-game-of-thrones-the-board-game-second-edition",
+      "price": "47.94",
+      "msrp": "60.00",
+      "discount": "0.21",
+      "primary_publisher": "Fantasy Flight Games",
+      "publishers": [
+        "Fantasy Flight Games"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "bgGxE0pI2B"
+        },
+        {
+          "id": "AZxlPpi5oq"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "GNtouC8NLm"
+        },
+        {
+          "id": "zzsE4jtI1b"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        },
+        {
+          "id": "za4PP1LH00"
+        }
+      ],
+      "categories": [
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "QAYkTHK1Dd"
+        },
+        {
+          "id": "jZEDOpx07e"
+        },
+        {
+          "id": "dO9HVl2TW7"
+        },
+        {
+          "id": "TKQncFVX74"
+        },
+        {
+          "id": "O0ogzwLUe8"
+        },
+        {
+          "id": "ssZjU3HETz"
+        }
+      ],
+      "designers": [
+        "Christian T. Petersen"
+      ],
+      "developers": [],
+      "artists": [
+        "Tomasz Jedruszek",
+        "Henning Ludvigsen"
+      ],
+      "names": [
+        "Game of Thrones the Board Game",
+        "A Game of Thrones: The Second Edition",
+        "A Game of Thrones: The Board Game (Second Edition)",
+        "A Game of Thrones Boardgame (2nd Edition)"
+      ],
+      "num_user_ratings": 109,
+      "average_user_rating": 3.3867889908256883,
+      "official_url": null,
+      "rules_url": null,
+      "weight_amount": 4.6,
+      "size_height": 11.8,
+      "size_width": 11.8,
+      "size_depth": 3,
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "FbhyxVWcOu"
+        }
+      ],
+      "reddit_all_time_count": 56,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 27.99,
+      "historical_low_date": {
+        "$date": "2020-01-30T14:39:51.280Z"
+      }
+    },
+    {
+      "id": "tccNAqkeOT",
+      "name": "Cataclysm: A Second World War",
+      "year_published": 2018,
+      "min_players": 2,
+      "max_players": 5,
+      "min_playtime": 90,
+      "max_playtime": 600,
+      "min_age": 12,
+      "description": "Cataclysm: A Second World War is a quick-playing game about politics and war in the 1930s and 40s, designed for two to five players. The three primary ideologies of the time contend to impose their vision of order on the world. The Fascists (Germany, Italy, and Japan) seek to overthrow the status quo, which favors the Democracies (France, the United Kingdom, and the United States), while the Communists (the Soviet Union) look for opportunities to storm the global stage.<br />\r\n<br />\r\nThere is no sequence of play. Instead, Cataclysm relies upon a strategic chit pull system that randomizes the order of not only your actions, but also the appearance of newly built combat units. This creates riveting tension that keeps players involved at all times. Random crisis events will upset plans, as well as signal the approach of the end of the turn. Not all is governed by luck. Players can use their reserve to carefully time important moves. Each side faces unique challenges managing its political, military, and economic resources in the face of constant uncertainty. Without long-term planning, any crisis can turn into chaos.<br />\r\n<br />\r\nThe full game of Cataclysm covers the entire globe and runs from 1933 to 1950. The extensive playbook includes several additional scenarios allowing for a range of theatres and start points. Special rules account for Appeasement, the Chinese Civil War, Lend Lease, the Atomic Bomb, the Great Purge, Dreadnought Refits, etc. Great care has been taken to allow a different but plausible alternate history to unfold with every play.",
+      "description_preview": "Cataclysm: A Second World War is a quick-playing game about politics and war in the 1930s and 40s, designed for two to five players. The three primary ideologies of the time contend to impose their vision of order on the world. The Fascists (Germany, Italy, and Japan) seek to overthrow the status quo, which favors the Democracies (France, the United Kingdom, and the United States), while the Communists (the Soviet Union) look for opportunities to storm the global stage. \r\n \r\nThere is no sequence of play. Instead, Cataclysm relies upon a strategic chit pull system that randomizes the order of not only your actions, but also the appearance of newly built combat units. This creates riveting tension that keeps players involved at all times. Random crisis events will upset plans, as well as signal the approach of the end of the turn. Not all is governed by luck. Players can use their reserve to carefully time important moves. Each side faces unique challenges managing its political, military, and economic resources in the face of constant uncertainty. Without long-term planning, any crisis can turn into chaos. \r\n \r\nThe full game of Cataclysm covers the entire globe and runs from 1933 to 1950. The extensive playbook includes several additional scenarios allowing for a range of theatres and start points. Special rules account for Appeasement, the Chinese Civil War, Lend Lease, the Atomic Bomb, the Great Purge, Dreadnought Refits, etc. Great care has been taken to allow a different but plausible alternate history to unfold with every play.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254154272-51FhavXBVbL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254154272-51FhavXBVbL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254154272-51FhavXBVbL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254154272-51FhavXBVbL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254154272-51FhavXBVbL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254154272-51FhavXBVbL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254154272-51FhavXBVbL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/tccNAqkeOT/cataclysm-a-second-world-war",
+      "price": "55.30",
+      "msrp": "79.00",
+      "discount": "0.30",
+      "primary_publisher": "GMT Games",
+      "publishers": [
+        "GMT Games"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "bgGxE0pI2B"
+        },
+        {
+          "id": "Gan96fffLL"
+        },
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "eRe1jJCBFe"
+        }
+      ],
+      "categories": [
+        {
+          "id": "nWDac9tQzt"
+        },
+        {
+          "id": "TKQncFVX74"
+        },
+        {
+          "id": "ssZjU3HETz"
+        },
+        {
+          "id": "jX8asGGR6o"
+        },
+        {
+          "id": "fl3TogdUzX"
+        }
+      ],
+      "designers": [
+        "William Terdoslavich",
+        "Scott Muldoon"
+      ],
+      "developers": [
+        "Kevin Bernatz"
+      ],
+      "artists": [
+        "Terry Leeds",
+        "Charles Kibler"
+      ],
+      "names": [],
+      "num_user_ratings": 5,
+      "average_user_rating": 0,
+      "official_url": "https://www.gmtgames.com/p-519-cataclysm.aspx?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://s3-us-west-2.amazonaws.com/gmtwebsiteassets/cataclysm/CAT_Rules_FINAL_Lo-Res.pdf",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 32,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 39.95,
+      "historical_low_date": {
+        "$date": "2019-11-19T10:01:52.088Z"
+      }
+    },
+    {
+      "id": "DUDXpUQFcy",
+      "name": "Combat Commander: Europe",
+      "year_published": 2006,
+      "min_players": 2,
+      "max_players": 2,
+      "min_playtime": 60,
+      "max_playtime": 180,
+      "min_age": 12,
+      "description": "Combat Commander: Europe is a card-driven board game covering tactical infantry combat in the European Theater of World War II. One player takes the role of the Axis (Germany) while another player commands the Allies (America or Russia). These two players will take turns playing one or more &quot;Fate&quot; cards from their hands in order to activate his units on the mapboard for various military functions.<br /><br />\r\nPlayers attempt to achieve victory by moving their combat units across the game map to attack their opponent's combat units and occupy as many objectives as possible. The degree to which a player succeeds or fails is measured by a scenario's specific &quot;Objective&quot; chits, the destruction of enemy units, and the exiting of friendly units off the opponent's board edge.<br /><br />\r\nA game of Combat Commander is divided into several measures of Game Time. There is no sequence of play to follow, however: each Time segment is divided into a variable number of Player Turns, each of which may consist of one or more Fate Card ''Orders'' conducted by the active player. Fate Card ''Actions'' may generally be conducted by either player at any time. ''Events'' - both good and bad - will occur at random intervals to add a bit of chaos and uncertainty to each player's perfect plan.",
+      "description_preview": "Combat Commander: Europe is a card-driven board game covering tactical infantry combat in the European Theater of World War II. One player takes the role of the Axis (Germany) while another player commands the Allies (America or Russia). These two players will take turns playing one or more \"Fate\" cards from their hands in order to activate his units on the mapboard for various military functions.  \r\nPlayers attempt to achieve victory by moving their combat units across the game map to attack their opponent's combat units and occupy as many objectives as possible. The degree to which a player succeeds or fails is measured by a scenario's specific \"Objective\" chits, the destruction of enemy units, and the exiting of friendly units off the opponent's board edge.  \r\nA game of Combat Commander is divided into several measures of Game Time. There is no sequence of play to follow, however: each Time segment is divided into a variable number of Player Turns, each of which may consist of one or more Fate Card ''Orders'' conducted by the active player. Fate Card ''Actions'' may generally be conducted by either player at any time. ''Events'' - both good and bad - will occur at random intervals to add a bit of chaos and uncertainty to each player's perfect plan.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1560979030176",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1560979030176",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1560979030176",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1560979030176",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1560979030176",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1560979030176",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1560979030176"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/DUDXpUQFcy/combat-commander-europe",
+      "price": "52.99",
+      "msrp": "52.99",
+      "discount": "0.00",
+      "primary_publisher": "GMT Games",
+      "publishers": [
+        "GMT Games"
+      ],
+      "mechanics": [
+        {
+          "id": "amcImLdOmD"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "6CyVyXRn1C"
+        },
+        {
+          "id": "yomuPpKFx4"
+        }
+      ],
+      "categories": [
+        {
+          "id": "ssZjU3HETz"
+        },
+        {
+          "id": "jX8asGGR6o"
+        },
+        {
+          "id": "fl3TogdUzX"
+        }
+      ],
+      "designers": [
+        "Chad Jensen"
+      ],
+      "developers": [
+        "Chad Jensen",
+        "Kai Jensen",
+        "John A. Foley"
+      ],
+      "artists": [
+        "Leland Myrick",
+        "Chad Jensen",
+        "Mark Simonitch",
+        "Lee Brimicombe-Wood"
+      ],
+      "names": [
+        "Combat Commander Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe (4th Printing)",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe",
+        "Combat Commander: Europe"
+      ],
+      "num_user_ratings": 24,
+      "average_user_rating": 3.8214285714285707,
+      "official_url": "https://www.gmtgames.com/p-703-combat-commander-europe-4th-printing.aspx?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "http://www.gmtgames.com/living_rules/CC_Rulebook_v1.1.pdf",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 22,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 46.49,
+      "historical_low_date": {
+        "$date": "2019-09-22T10:02:31.822Z"
+      }
+    },
+    {
+      "id": "0NHvqOzG8s",
+      "name": "Kingmaker",
+      "year_published": 1974,
+      "min_players": 2,
+      "max_players": 7,
+      "min_playtime": 60,
+      "max_playtime": 180,
+      "min_age": 10,
+      "description": "KINGMAKER: - Set in the midst of a chaotic English Civil War, KINGMAKER will astound you with its oppurtunity for diplomacy, fast moving play, simple mechanics, involved strategies, and sudden turns of fortune. Not a wargame in the classic mold, KINGMAKER is a game the entire family can enjoy-especially those who relish the role of the underdog and combining forces against the leader, be he Lancatrian or Yorkist.\r\n\r\nEach player is dealt a number of cards which comprise his faction of nobles with an inherent combat strength is supporting men-at-arms. These forces are increased when drawing cards conveying possesions of key fortified towns, fleets, companies of mercenary soldiers, support of bishops, and titles which increase a noble's inherent following. Players then maneuver their forces in such a way as to capture the 7 members of the royal families eligible to be proclaimed King (or Queen in the case of Margaret of Anjou). The faction which crowns the last surviving royal piece is declared the winner..",
+      "description_preview": "KINGMAKER: - Set in the midst of a chaotic English Civil War, KINGMAKER will astound you with its oppurtunity for diplomacy, fast moving play, simple mechanics, involved strategies, and sudden turns of fortune. Not a wargame in the classic mold, KINGMAKER is a game the entire family can enjoy-especially those who relish the role of the underdog and combining forces against the leader, be he Lancatrian or Yorkist.\r\n\r\nEach player is dealt a number of cards which comprise his faction of nobles with an inherent combat strength is supporting men-at-arms. These forces are increased when drawing cards conveying possesions of key fortified towns, fleets, companies of mercenary soldiers, support of bishops, and titles which increase a noble's inherent following. Players then maneuver their forces in such a way as to capture the 7 members of the royal families eligible to be proclaimed King (or Queen in the case of Margaret of Anjou). The faction which crowns the last surviving royal piece is declared the winner..",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257150225-41GOA807aOL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257150225-41GOA807aOL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559257150225-41GOA807aOL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559257150225-41GOA807aOL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559257150225-41GOA807aOL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559257150225-41GOA807aOL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257150225-41GOA807aOL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/0NHvqOzG8s/kingmaker-war-of-the-roses",
+      "price": "209.99",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Avalon Hill Game Company",
+      "publishers": [
+        "Avalon Hill Game Company"
+      ],
+      "mechanics": [],
+      "categories": [
+        {
+          "id": "QAYkTHK1Dd"
+        },
+        {
+          "id": "ssZjU3HETz"
+        }
+      ],
+      "designers": [],
+      "developers": [],
+      "artists": [],
+      "names": [
+        "Kingmaker"
+      ],
+      "num_user_ratings": 6,
+      "average_user_rating": 2.666666666666667,
+      "official_url": null,
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 5,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 209.99
+    },
+    {
+      "id": "dpEFuGH03C",
+      "name": "The Grizzled: Armistice Edition",
+      "year_published": 2018,
+      "min_players": 1,
+      "max_players": 4,
+      "min_playtime": 45,
+      "max_playtime": 45,
+      "min_age": 14,
+      "description": "<br />\r\n\r\n<p><br />On August 2, 1914, the young men of a small French village gathered in the town square in stunned silence to contemplate the General Mobilization order plastered to the door of the town hall. Soon, they will leave everything they know to head to boot camp for training and then, to war. Will their friendship be strong enough to survive it?<br /><br />In <i>The Grizzled: Armistice Edition</i>, players take on the role of soldiers facing the Trials and Hard Knocks of the first World War. They work cooperatively across a campaign where they confront the major events of the war. From the introduction scenario of Boot Camp, through the nine different Missions, everything that happens carries forward and affects the next steps of the game. Players will need to make good decisions and support each other if they hope to make it to the end of the war alive.<br /><br /><b>Campaign for Peace</b> - Players work together to support each other and survive the war. Each Mission has its own briefing, and Events that happen in one Mission carry forward throughout the campaign.<br /><br /><b>New Recruits</b> - Recruit cards join the team and work alongside the players to accomplish their goals. When the Recruit has played their cards, the players gain an advantage!<br /><br /><b>Save the Game</b> - Between Chapters, players can save their game and return to the war at a later time. All of their progress is recorded for future plays.<br /><br /><b>Contents:</b><br />6 Miniatures<br />1 Recruit Miniature<br />211 Cards<br />40 Tokens<br />13 Divided Tabs</p><p></p>",
+      "description_preview": " \r\n\r\n  On August 2, 1914, the young men of a small French village gathered in the town square in stunned silence to contemplate the General Mobilization order plastered to the door of the town hall. Soon, they will leave everything they know to head to boot camp for training and then, to war. Will their friendship be strong enough to survive it?  In  The Grizzled: Armistice Edition , players take on the role of soldiers facing the Trials and Hard Knocks of the first World War. They work cooperatively across a campaign where they confront the major events of the war. From the introduction scenario of Boot Camp, through the nine different Missions, everything that happens carries forward and affects the next steps of the game. Players will need to make good decisions and support each other if they hope to make it to the end of the war alive.   Campaign for Peace  - Players work together to support each other and survive the war. Each Mission has its own briefing, and Events that happen in one Mission carry forward throughout the campaign.   New Recruits  - Recruit cards join the team and work alongside the players to accomplish their goals. When the Recruit has played their cards, the players gain an advantage!   Save the Game  - Between Chapters, players can save their game and return to the war at a later time. All of their progress is recorded for future plays.   Contents:  6 Miniatures 1 Recruit Miniature 211 Cards 40 Tokens 13 Divided Tabs   ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541193985073",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541193985073",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1541193985073",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1541193985073",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1541193985073",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1541193985073",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541193985073"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/dpEFuGH03C/the-grizzled-armistice-edition",
+      "price": "39.99",
+      "msrp": "49.99",
+      "discount": "0.20",
+      "primary_publisher": "Cool Mini or Not",
+      "publishers": [
+        "Cool Mini or Not"
+      ],
+      "mechanics": [
+        {
+          "id": "9mNukNBxfZ"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "hmipYN1R1I"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [
+        {
+          "id": "VzyslQJGrG"
+        },
+        {
+          "id": "ssZjU3HETz"
+        }
+      ],
+      "designers": [
+        "Fabien Riffaud",
+        "Juan Rodriguez"
+      ],
+      "developers": [],
+      "artists": [
+        "Tignous"
+      ],
+      "names": [
+        "The Grizzled: Armistice Edition"
+      ],
+      "num_user_ratings": 0,
+      "average_user_rating": 0,
+      "official_url": "https://cmon.com/product/the-grizzled/the-grizzled-armistice-edition?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://cmon-files.s3.amazonaws.com/pdf/assets_item/resource/146/Rulebook_TheGrizzled-Armistice.pdf",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "3liIBe9Z4z"
+        }
+      ],
+      "reddit_all_time_count": 2,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 30,
+      "historical_low_date": {
+        "$date": "2019-07-14T12:01:23.396Z"
+      }
+    },
+    {
+      "id": "FZ1hqYmR3F",
+      "name": "AGES",
+      "year_published": 2015,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 30,
+      "max_playtime": 60,
+      "min_age": 14,
+      "description": "<p><em><strong>AGES</strong></em> is a deckbuilding card game with a historical theme. In this game, each player will travel to historical events and exotic locations while seeking the help of the historical Elite.</p>\r\n\r\n<p>Have you ever visited a museum? Did you see displays filled with prints of paintings, replicas of rare artifacts, and animatronic presidents? Did you ever wish you could see the real thing?</p>\r\n\r\n<p>Welcome to <em>AGES</em>, a Deckbuilding card game designed for 2 to 4 players, ages 14+. The average game will last 30-60 minutes.</p>\r\n\r\n<p>In <em>AGES</em>, each player will travel back in time to collect artifacts, historical figures, locations, and check out famous events throughout the history of mankind. Whoever assembles the greatest historical collection will be the winner.</p>\r\n\r\n<p>Wage a war of the ages as you travel through time recruiting history's most influential people. Which path will you choose? Will you take solace in Art? Will you go the path of the righteous and seek out the Good? Or will you go the path of the conqueror and seek out Evil? Perhaps the knowledge contained within Science? The choice is yours.</p>\r\n\r\n<p>Along the way, players will need to pick up various Icons to activate the cards they purchase. To do this, players need to remember that <em>AGES</em> isn't just the name of the game, it's also an acronym: Art, Good, Evil, and Science</p>\r\n\r\n<p>So get ready to talk strategy with Napoleon, visit the California Gold Rush, and hold the Dead Sea Scrolls in your hands.</p>\r\n\r\n<p>Play continues until a face-up supply of cards representing key historical individuals has been exhausted with victory going to the player with the highest point total.</p>",
+      "description_preview": "   AGES   is a deckbuilding card game with a historical theme. In this game, each player will travel to historical events and exotic locations while seeking the help of the historical Elite. \r\n\r\n Have you ever visited a museum? Did you see displays filled with prints of paintings, replicas of rare artifacts, and animatronic presidents? Did you ever wish you could see the real thing? \r\n\r\n Welcome to  AGES , a Deckbuilding card game designed for 2 to 4 players, ages 14+. The average game will last 30-60 minutes. \r\n\r\n In  AGES , each player will travel back in time to collect artifacts, historical figures, locations, and check out famous events throughout the history of mankind. Whoever assembles the greatest historical collection will be the winner. \r\n\r\n Wage a war of the ages as you travel through time recruiting history's most influential people. Which path will you choose? Will you take solace in Art? Will you go the path of the righteous and seek out the Good? Or will you go the path of the conqueror and seek out Evil? Perhaps the knowledge contained within Science? The choice is yours. \r\n\r\n Along the way, players will need to pick up various Icons to activate the cards they purchase. To do this, players need to remember that  AGES  isn't just the name of the game, it's also an acronym: Art, Good, Evil, and Science \r\n\r\n So get ready to talk strategy with Napoleon, visit the California Gold Rush, and hold the Dead Sea Scrolls in your hands. \r\n\r\n Play continues until a face-up supply of cards representing key historical individuals has been exhausted with victory going to the player with the highest point total. ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1545438807034",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1545438807034",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1545438807034",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1545438807034",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1545438807034",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1545438807034",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1545438807034"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/FZ1hqYmR3F/ages",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "",
+      "publishers": [],
+      "mechanics": [
+        {
+          "id": "vZsDDAdOoe"
+        }
+      ],
+      "categories": [
+        {
+          "id": "a8NM5cugJX"
+        },
+        {
+          "id": "QAYkTHK1Dd"
+        },
+        {
+          "id": "ssZjU3HETz"
+        },
+        {
+          "id": "w8XD66FUZ2"
+        },
+        {
+          "id": "IpcJzp0TVC"
+        }
+      ],
+      "designers": [],
+      "developers": [],
+      "artists": [],
+      "names": [],
+      "num_user_ratings": 0,
+      "average_user_rating": 0,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0
+    },
+    {
+      "id": "qmCtmeoAb6",
+      "name": "Armadöra",
+      "year_published": 2013,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 30,
+      "max_playtime": 30,
+      "min_age": 8,
+      "description": "<p>Armadora is a 2-4 player area control game. Your objective is to claim the biggest portion of the dwarven gold mines. Each turn, you will choose to either place one of your tokens facedown to claim territory or place a palisade to divide existing territories in two. The player with the highest strength in each territory wins its gold at the end of the game. The player with the most gold wins.<br /></p>",
+      "description_preview": " Armadora is a 2-4 player area control game. Your objective is to claim the biggest portion of the dwarven gold mines. Each turn, you will choose to either place one of your tokens facedown to claim territory or place a palisade to divide existing territories in two. The player with the highest strength in each territory wins its gold at the end of the game. The player with the most gold wins.  ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1575419265708",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1575419265708",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1575419265708",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1575419265708",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1575419265708",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1575419265708",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1575419265708"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/qmCtmeoAb6/armadra",
+      "price": "0.00",
+      "msrp": "24.99",
+      "discount": "0.00",
+      "primary_publisher": null,
+      "publishers": [
+        "BLUE ORANGE GAMES"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "ZX3hYcF9H7"
+        },
+        {
+          "id": "aQZ40lKv8O"
+        },
+        {
+          "id": "YyBg5CzHBF"
+        },
+        {
+          "id": "RwgEONzIzc"
+        },
+        {
+          "id": "kuRNhFADjS"
+        }
+      ],
+      "categories": [
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "ssZjU3HETz"
+        }
+      ],
+      "designers": [
+        "Christwart Conrad"
+      ],
+      "developers": [],
+      "artists": [
+        "Tony Rochon"
+      ],
+      "names": [],
+      "num_user_ratings": 0,
+      "average_user_rating": 0,
+      "official_url": "https://www.blueorangegames.com/index.php/games/armadora?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0
+    }
+  ]
+}

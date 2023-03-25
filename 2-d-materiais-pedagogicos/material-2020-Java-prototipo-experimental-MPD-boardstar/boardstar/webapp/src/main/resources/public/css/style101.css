@@ -1,0 +1,57 @@
+    @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+    body,h1 {font-family: "Raleway", sans-serif}
+
+    body, html {height: 100%}
+
+    body {
+        background-color: darkgray;
+    }
+
+    .bgimg {
+      background-image: url('/images/background-boardgames.jpg');
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
+
+    .jumbotron {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .card {
+        background-color: lightgrey;
+    }
+
+    #game {
+        height: 300px;
+    }
+
+    #desc {
+        text-align: start;
+        overflow: auto;
+        height:200px;
+    }
+
+    .scrollbar::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color: #F5F5F5;
+    }
+
+    .scrollbar::-webkit-scrollbar
+    {
+        width: 10px;
+        background-color: #F5F5F5;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb
+    {
+        background-color: #000000;
+        border: 2px solid #555555;
+    }

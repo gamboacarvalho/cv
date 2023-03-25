@@ -1,0 +1,754 @@
+{
+  "games": [
+    {
+      "id": "pPZnlKC4G3",
+      "name": "Inis",
+      "year_published": 2016,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 60,
+      "max_playtime": 90,
+      "min_age": 14,
+      "description": "<div><p>The game's elegant mechanics combine card drafting and area control to produce a system rich in strategic options and interpersonal interactions.<br />At the same time, brilliantly crafted tiles give every game a unique, gradually unfolding geography. The gorgeous original art brings Ireland's ancient epics and audacious heroes to life.<br /></p><p><br />There are three different types of cards in <i>Inis</i>:<br />Action Cards - These are drafted each round and provide the base actions to deploy troops, move troops, attack, and play new regions.<br />Advantage Cards - These are acquired as a result of controlling certain regions. Each region has its own Advantage Card you receive as a result of having the most troops in it.<br />Epic Tales Cards - These unique and powerful cards evoke the Celtic gods and heroes to inspire the clans to accomplish legendary feats.</p></div>",
+      "description_preview": "  The game's elegant mechanics combine card drafting and area control to produce a system rich in strategic options and interpersonal interactions. At the same time, brilliantly crafted tiles give every game a unique, gradually unfolding geography. The gorgeous original art brings Ireland's ancient epics and audacious heroes to life.    There are three different types of cards in  Inis : Action Cards - These are drafted each round and provide the base actions to deploy troops, move troops, attack, and play new regions. Advantage Cards - These are acquired as a result of controlling certain regions. Each region has its own Advantage Card you receive as a result of having the most troops in it. Epic Tales Cards - These unique and powerful cards evoke the Celtic gods and heroes to inspire the clans to accomplish legendary feats.  ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255828707-61nsxy2BledL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255828707-61nsxy2BledL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559255828707-61nsxy2BledL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559255828707-61nsxy2BledL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559255828707-61nsxy2BledL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559255828707-61nsxy2BledL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255828707-61nsxy2BledL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/pPZnlKC4G3/inis",
+      "price": "55.99",
+      "msrp": "69.99",
+      "discount": "0.20",
+      "primary_publisher": "Asmodee Editions",
+      "publishers": [
+        "Asmodee Editions",
+        "Matagot",
+        "Gen-X Games",
+        "Hobby Japan",
+        "Lavka Games",
+        "Pegasus Spiele",
+        "Portal Games",
+        "Surfin' Meeple China"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "wV5peB05xs"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "r6yIFvyXDD"
+        },
+        {
+          "id": "8PN2HE86wg"
+        }
+      ],
+      "categories": [
+        {
+          "id": "a8NM5cugJX"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "MHkqIVxwtx"
+        }
+      ],
+      "designers": [
+        " Christian Martinez"
+      ],
+      "developers": [],
+      "artists": [
+        "Dimitri Bielak",
+        "Jim Fitzpatrick"
+      ],
+      "names": [],
+      "num_user_ratings": 113,
+      "average_user_rating": 3.7681013676588897,
+      "official_url": "http://www.matagot.com/en/catalog/details/expert-games/1/inis/794#scrol?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "http://www.matagot.com/data/atasamente/INIS_RULES_EN.pdf",
+      "weight_amount": 4.72,
+      "weight_units": "lbs ",
+      "size_height": 10.9,
+      "size_width": 3.1,
+      "size_depth": 15.6,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 751,
+      "reddit_week_count": 6,
+      "reddit_day_count": 4,
+      "historical_low_price": 45.87,
+      "historical_low_date": {
+        "$date": "2019-07-16T10:01:07.520Z"
+      }
+    },
+    {
+      "id": "NYMPJIwU5Y",
+      "name": "Kemet",
+      "year_published": 2012,
+      "min_players": 2,
+      "max_players": 5,
+      "min_playtime": 90,
+      "max_playtime": 120,
+      "min_age": 10,
+      "description": "<p>Conquer Territory! Defeat Your Enemies! Appease the Gods! </p><p>In Kemet, players lead a tribe of ancient Egyptians as they strategically maneuver their troops to control the most territories and battle against their rivals. Draw upon the powers of the Egyptian gods and recruit mythical creatures to reinforce your armies and vanquish those who oppose you and your ambitions!</p>",
+      "description_preview": " Conquer Territory! Defeat Your Enemies! Appease the Gods!   In Kemet, players lead a tribe of ancient Egyptians as they strategically maneuver their troops to control the most territories and battle against their rivals. Draw upon the powers of the Egyptian gods and recruit mythical creatures to reinforce your armies and vanquish those who oppose you and your ambitions! ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1539298062211",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1539298062211",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1539298062211",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1539298062211",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1539298062211",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1539298062211",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1539298062211"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/NYMPJIwU5Y/kemet",
+      "price": "45.70",
+      "msrp": "69.99",
+      "discount": "0.35",
+      "primary_publisher": "Publisher Services Inc (PSI)",
+      "publishers": [
+        "Matagot"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "wV5peB05xs"
+        },
+        {
+          "id": "WPytek5P8l"
+        }
+      ],
+      "categories": [
+        {
+          "id": "upXZ8vNfNO"
+        },
+        {
+          "id": "MHkqIVxwtx"
+        }
+      ],
+      "designers": [
+        "Jacques Bariot",
+        "Guillaume Montiage"
+      ],
+      "developers": [],
+      "artists": [
+        "Dimitri Bielak",
+        "Emile Denis",
+        "Nicolas Fructus"
+      ],
+      "names": [],
+      "num_user_ratings": 115,
+      "average_user_rating": 3.547826086956523,
+      "official_url": "http://drafts.asmodee.us/en/games/kemet/products/kemet/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://www.matagot.com/data/atasamente/ReglesKemet_EN.pdf",
+      "weight_amount": 4.1,
+      "weight_units": "lbs ",
+      "size_height": 10.8,
+      "size_width": 3.1,
+      "size_depth": 15.6,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 526,
+      "reddit_week_count": 4,
+      "reddit_day_count": 0,
+      "historical_low_price": 45.7,
+      "historical_low_date": {
+        "$date": "2020-01-30T10:03:47.131Z"
+      }
+    },
+    {
+      "id": "mcGfUyWss2",
+      "name": "Kemet: Ta-Seti",
+      "year_published": 2015,
+      "min_players": 2,
+      "max_players": 5,
+      "min_playtime": 90,
+      "max_playtime": 120,
+      "min_age": 10,
+      "description": "Conquer Territory! Defeat Your Enemies! Appease the Gods! In Kemet, players lead a tribe of ancient Egyptians as they strategically maneuver their troops to control the most territories and battle against their rivals. Draw upon the powers of the Egyptian gods and recruit mythical creatures to reinforce your armies and vanquish those who oppose you and your ambitions!",
+      "description_preview": "Conquer Territory! Defeat Your Enemies! Appease the Gods! In Kemet, players lead a tribe of ancient Egyptians as they strategically maneuver their troops to control the most territories and battle against their rivals. Draw upon the powers of the Egyptian gods and recruit mythical creatures to reinforce your armies and vanquish those who oppose you and your ambitions!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254194904-51s6Iv2B5L8L.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254194904-51s6Iv2B5L8L.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254194904-51s6Iv2B5L8L.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254194904-51s6Iv2B5L8L.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254194904-51s6Iv2B5L8L.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254194904-51s6Iv2B5L8L.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254194904-51s6Iv2B5L8L.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/mcGfUyWss2/kemet-taseti",
+      "price": "39.99",
+      "msrp": "50.00",
+      "discount": "0.20",
+      "primary_publisher": "Matagot",
+      "publishers": [
+        "Matagot"
+      ],
+      "mechanics": [],
+      "categories": [],
+      "designers": [
+        "Jacques Bariot",
+        "Guillaume Montiage"
+      ],
+      "developers": [],
+      "artists": [
+        "Dimitri Bielak",
+        "Emile Denis",
+        "Nicolas Fructus"
+      ],
+      "names": [],
+      "num_user_ratings": 11,
+      "average_user_rating": 3.4000000000000004,
+      "official_url": null,
+      "rules_url": null,
+      "weight_amount": 2.43,
+      "size_height": 34.8,
+      "size_width": 23.9,
+      "size_depth": 5.8,
+      "size_units": "cm",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 12,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 26.36,
+      "historical_low_date": {
+        "$date": "2019-09-04T16:03:07.956Z"
+      }
+    },
+    {
+      "id": "OfWw8QJLON",
+      "name": "Relic",
+      "year_published": 2013,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 180,
+      "max_playtime": 180,
+      "min_age": 14,
+      "description": "A Warp rift has erupted near the Antian Sector and under its baleful influence Chaos infestations and other abhorrent phenomena have surfaced. To face this threat, agents of the Imperium have come forth: Space Marine, Inquisitor, Commissar, Rogue Trader and more. To succeed, such heroes will need skill and weaponry, courage and faith and even the assistance of ancient and powerful relics. Relic is an adventure board game based on the Talisman system, in which two to four players each assume the role of a powerful hero from the Warhammer 40,000 universe and bravely venture forth to shield the Antian Sector from certain doom. By completing missions and defeating enemies, characters compete to gain rewards and experience, furthering their chance of being the first to defeat whatever evil lies beyond the Warp rift.",
+      "description_preview": "A Warp rift has erupted near the Antian Sector and under its baleful influence Chaos infestations and other abhorrent phenomena have surfaced. To face this threat, agents of the Imperium have come forth: Space Marine, Inquisitor, Commissar, Rogue Trader and more. To succeed, such heroes will need skill and weaponry, courage and faith and even the assistance of ancient and powerful relics. Relic is an adventure board game based on the Talisman system, in which two to four players each assume the role of a powerful hero from the Warhammer 40,000 universe and bravely venture forth to shield the Antian Sector from certain doom. By completing missions and defeating enemies, characters compete to gain rewards and experience, furthering their chance of being the first to defeat whatever evil lies beyond the Warp rift.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254768508-61X-3uyERfL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254768508-61X-3uyERfL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254768508-61X-3uyERfL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254768508-61X-3uyERfL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254768508-61X-3uyERfL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254768508-61X-3uyERfL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254768508-61X-3uyERfL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/OfWw8QJLON/relic",
+      "price": "129.99",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Fantasy Flight Publishing",
+      "publishers": [
+        "Fantasy Flight Publishing"
+      ],
+      "mechanics": [
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "mGBzR68m8Z"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "yq6hVlbM2R"
+        },
+        {
+          "id": "3B3QpKvXD3"
+        },
+        {
+          "id": "0MdRqhkNpw"
+        }
+      ],
+      "designers": [
+        "John Goodenough"
+      ],
+      "developers": [],
+      "artists": [
+        "Ryan Barger",
+        "Dimitri Bielak",
+        "John Blanche",
+        "Matt Bradbury"
+      ],
+      "names": [
+        "Fantasy Flight Games Relic: The",
+        "Relic"
+      ],
+      "num_user_ratings": 12,
+      "average_user_rating": 2.9999999999999996,
+      "official_url": null,
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 3,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 97.99,
+      "historical_low_date": {
+        "$date": "2019-08-08T10:01:58.662Z"
+      }
+    },
+    {
+      "id": "5p2ywjQMI6",
+      "name": "The Gathering Storm",
+      "year_published": 2010,
+      "min_players": null,
+      "max_players": null,
+      "min_playtime": null,
+      "max_playtime": null,
+      "min_age": null,
+      "description": "",
+      "description_preview": "",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1576641003402",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1576641003402",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1576641003402",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1576641003402",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1576641003402",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1576641003402",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1576641003402"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/5p2ywjQMI6/the-gathering-storm",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": null,
+      "publishers": [
+        "Edge Entertainment",
+        "Fantasy Flight Games",
+        "Heidelberger Spieleverlag"
+      ],
+      "mechanics": [],
+      "categories": [],
+      "designers": [
+        "Dave Allen",
+        "Daniel Clark (I)",
+        "Steve Darlington",
+        "Michael Hurley",
+        "Jason Little",
+        "Gary McBride",
+        "Clive Oldfield",
+        "Dylan Owen",
+        "Tim Uren",
+        "Show More »"
+      ],
+      "developers": [],
+      "artists": [
+        "Alex Aparin",
+        "Tim Arney-O'Neil",
+        "Erfian Asafat",
+        "Ryan Barger",
+        "Dimitri Bielak",
+        "John Blanche",
+        "Alex Boyd",
+        "James Brady",
+        "Jason Caffoe",
+        "Trevor Cook",
+        "Daarken",
+        "Paul Dainton",
+        "Fergus Duggan",
+        "Wayne England",
+        "Loren Fetterman",
+        "John Gravato",
+        "David Griffith",
+        "Ilich Henriquez",
+        "Michal Ivan",
+        "Peter Johnston",
+        "Igor Kieryluk",
+        "Karl Kopinski",
+        "Clint Langley",
+        "Pat Loboyko",
+        "Jorge Maese",
+        "Luke Mancini",
+        "Nacho Molina",
+        "Mark Molnar",
+        "Chris Pritchard",
+        "Brad Rigney",
+        "Adrian Smith",
+        "Mark E. Smith",
+        "Geoff Taylor",
+        "Christopher Trevas",
+        "Frank Walls",
+        "Dan Wheaton",
+        "Joe Wilson",
+        "Liu Yang",
+        "Show More »"
+      ],
+      "names": [],
+      "num_user_ratings": 0,
+      "official_url": null,
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 2,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0
+    },
+    {
+      "id": "OssZfONHC4",
+      "name": "Talisman (Revised 4th Edition): I Reami Perduti Espansione",
+      "year_published": 2018,
+      "min_players": 2,
+      "max_players": 6,
+      "min_playtime": 90,
+      "max_playtime": 90,
+      "min_age": 14,
+      "description": "",
+      "description_preview": "",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1560539936595",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1560539936595",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1560539936595",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1560539936595",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1560539936595",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1560539936595",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1560539936595"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/OssZfONHC4/talisman-revised-4th-edition-i-reami-perduti-espansione",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": null,
+      "publishers": [
+        "Giochi Uniti"
+      ],
+      "mechanics": [],
+      "categories": [],
+      "designers": [
+        "Samuel Bailey",
+        "Jon New"
+      ],
+      "developers": [],
+      "artists": [
+        "Abrar Ajmal",
+        "Bruno Balixa",
+        "Helge C. Balzer",
+        "Massimiliano Bertolini",
+        "Sara Biddle",
+        "Dimitri Bielak"
+      ],
+      "names": [],
+      "num_user_ratings": 0,
+      "official_url": null,
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0
+    },
+    {
+      "id": "4mwfiNVfaZ",
+      "name": "Game Master's Toolkit",
+      "year_published": 2010,
+      "min_players": null,
+      "max_players": null,
+      "min_playtime": null,
+      "max_playtime": null,
+      "min_age": null,
+      "description": "",
+      "description_preview": "",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1576640394724",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1576640394724",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1576640394724",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1576640394724",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1576640394724",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1576640394724",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1576640394724"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/4mwfiNVfaZ/game-masters-toolkit",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": null,
+      "publishers": [
+        "Edge Entertainment",
+        "Fantasy Flight Games"
+      ],
+      "mechanics": [],
+      "categories": [],
+      "designers": [
+        "Daniel Clark (I)",
+        "Shane Lacy Hensley",
+        "Michael Hurley",
+        "Jason Little",
+        "Clive Oldfield",
+        "Brady Sadler",
+        "Tim Uren",
+        "Show More »"
+      ],
+      "developers": [],
+      "artists": [
+        "Alex Aparin",
+        "Tim Arney-O'Neil",
+        "Erfian Asafat",
+        "Ryan Barger",
+        "Dimitri Bielak",
+        "John Blanche",
+        "Yoann Boissonnet",
+        "Alex Boyd",
+        "James Brady",
+        "Jason Caffoe",
+        "Trevor Cook",
+        "Paul Dainton",
+        "Liz Danforth",
+        "Fergus Duggan",
+        "Wayne England",
+        "Loren Fetterman",
+        "John Gravato",
+        "David Griffith",
+        "Lucas Hardi",
+        "Ilich Henriquez",
+        "Michal Ivan",
+        "Peter Johnston",
+        "Igor Kieryluk",
+        "Jonathan Kirtz",
+        "Karl Kopinski",
+        "Clint Langley",
+        "Pat Loboyko",
+        "Jorge Maese",
+        "Luke Mancini",
+        "Mark Molnar",
+        "Michael Phillippi",
+        "Chris Pritchard",
+        "Brad Rigney",
+        "Adrian Smith",
+        "Mark Smith",
+        "Geoff Taylor",
+        "Christopher Trevas",
+        "Frank Walls",
+        "Dan Wheaton",
+        "Joe Wilson",
+        "Liu Yang",
+        "Show More »"
+      ],
+      "names": [],
+      "num_user_ratings": 0,
+      "official_url": null,
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0
+    },
+    {
+      "id": "nC1UoCk6y2",
+      "name": "Talisman (Revised 4th Edition): The Realms",
+      "year_published": 2018,
+      "min_players": 2,
+      "max_players": 6,
+      "min_playtime": 90,
+      "max_playtime": 90,
+      "min_age": 14,
+      "description": "",
+      "description_preview": "",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1572745155529",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1572745155529",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1572745155529",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1572745155529",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1572745155529",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1572745155529",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1572745155529"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/nC1UoCk6y2/talisman-revised-4th-edition-the-realms",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": null,
+      "publishers": [
+        "Giochi Uniti",
+        "Pegasus Spiele",
+        "Games Workshop Ltd."
+      ],
+      "mechanics": [],
+      "categories": [],
+      "designers": [
+        "Samuel Bailey",
+        "Jon New"
+      ],
+      "developers": [],
+      "artists": [
+        "Abrar Ajmal",
+        "Bruno Balixa",
+        "Helge C. Balzer",
+        "Massimiliano Bertolini",
+        "Sara Biddle",
+        "Dimitri Bielak"
+      ],
+      "names": [],
+      "num_user_ratings": 0,
+      "official_url": null,
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0
+    },
+    {
+      "id": "CHK6xBGaid",
+      "name": "Kemet: New Power Tiles",
+      "year_published": 2015,
+      "min_players": 2,
+      "max_players": 5,
+      "min_playtime": 60,
+      "max_playtime": 120,
+      "min_age": 14,
+      "description": "<p>3 new power tiles originally distributed as promo items during Essen 2015.</p>\r\n\r\n<p>Contains the following gaming material:</p>\r\n\r\n<p>1 blue power tile:<br />\r\n- Protective aura: ignore any damage outside of combat</p>\r\n\r\n<p>1 red power tile:<br />\r\n- Night Expedition: one priest can move to the next location on the path to Ta-Seti during the night phase, without benefit from the bonuses between the locations nor taking any object or skills token on the location</p>\r\n\r\n<p>1 white power tile:<br />\r\n- Reminiscence: At the end of battle, if the opponent has played at least one DI card, you may take one of them in your hand</p>\r\n\r\n<p>Note: &quot;Kemet: Ta-Seti&quot; expansion is required in order to use these new power tiles</p>",
+      "description_preview": " 3 new power tiles originally distributed as promo items during Essen 2015. \r\n\r\n Contains the following gaming material: \r\n\r\n 1 blue power tile: \r\n- Protective aura: ignore any damage outside of combat \r\n\r\n 1 red power tile: \r\n- Night Expedition: one priest can move to the next location on the path to Ta-Seti during the night phase, without benefit from the bonuses between the locations nor taking any object or skills token on the location \r\n\r\n 1 white power tile: \r\n- Reminiscence: At the end of battle, if the opponent has played at least one DI card, you may take one of them in your hand \r\n\r\n Note: \"Kemet: Ta-Seti\" expansion is required in order to use these new power tiles ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1547101387954",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1547101387954",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1547101387954",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1547101387954",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1547101387954",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1547101387954",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1547101387954"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/CHK6xBGaid/kemet-new-power-tiles",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Matagot",
+      "publishers": [
+        "Matagot"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "bgGxE0pI2B"
+        },
+        {
+          "id": "xuphiSlrxI"
+        },
+        {
+          "id": "iWODHwRGuU"
+        }
+      ],
+      "categories": [],
+      "designers": [
+        "Jacques Bariot",
+        "Guillaume Montiage"
+      ],
+      "developers": [],
+      "artists": [
+        "Dimitri Bielak",
+        "Emile Denis",
+        "Nicolas Fructus"
+      ],
+      "names": [],
+      "num_user_ratings": 1,
+      "average_user_rating": 3,
+      "official_url": null,
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0
+    },
+    {
+      "id": "bkgWnwzOqt",
+      "name": "Metal Adventures",
+      "year_published": 2015,
+      "min_players": 3,
+      "max_players": 6,
+      "min_playtime": 45,
+      "max_playtime": 60,
+      "min_age": 14,
+      "description": "<p>Space pirates are battling for honor, glory and wealth! Join them in their exploration of the universe and their quest for victory. Players will explore, challenge each others, and engage in short-term or long-term alliances, but there will be battles and mighty spaceships involved. In <em><strong>Metal Adventures</strong></em>, you'll use cards to explore, enhance your ship and your crew, and live up to bold challenges. There will be negotiations, battle tactics, and the uncertainty and risk that really make a pirate's life.</p>\r\n\r\n<p>During the game, each player uses a fancy four-wheeled astrolabe to track their power (which can be improved via equipment), damage (which reduces power), glory (which is how players win), and the &quot;judgement of pirates&quot; (which affects glory).</p>\r\n\r\n<p>On a turn, a player either rests (gaining money and repairing their ship) or else travels (paying to do so), battles (either starships, planets or opponents), and optionally takes the &quot;tour of pirates&quot;, visiting one of the ten planets in the game and taken the action available there. Each player holds two trophy cards, and when they meet the conditions on one of them, they can reveal it to earn credits, glory or both. They can gain support (single-use cards) and equipment (providing power adjustments and possibly other special abilities), keeping at most four of these improvement cards at a time.</p>\r\n\r\n<p>Players can negotiate alliances and trade anything but glory, and while they must keep their word for immediate exchanges and actions, they can break promises or alliances in later turns, although doing so requires them to suffer the &quot;judgement of pirates&quot;, thereby affecting their glory count. Collect four such points, and they can no longer ally with other players or give or receive assistance.</p>\r\n\r\n<p>When a player has nine or more glory points or the space deck contains two or fewer cards, the game ends and whoever has the most glory wins.</p>",
+      "description_preview": " Space pirates are battling for honor, glory and wealth! Join them in their exploration of the universe and their quest for victory. Players will explore, challenge each others, and engage in short-term or long-term alliances, but there will be battles and mighty spaceships involved. In   Metal Adventures  , you'll use cards to explore, enhance your ship and your crew, and live up to bold challenges. There will be negotiations, battle tactics, and the uncertainty and risk that really make a pirate's life. \r\n\r\n During the game, each player uses a fancy four-wheeled astrolabe to track their power (which can be improved via equipment), damage (which reduces power), glory (which is how players win), and the \"judgement of pirates\" (which affects glory). \r\n\r\n On a turn, a player either rests (gaining money and repairing their ship) or else travels (paying to do so), battles (either starships, planets or opponents), and optionally takes the \"tour of pirates\", visiting one of the ten planets in the game and taken the action available there. Each player holds two trophy cards, and when they meet the conditions on one of them, they can reveal it to earn credits, glory or both. They can gain support (single-use cards) and equipment (providing power adjustments and possibly other special abilities), keeping at most four of these improvement cards at a time. \r\n\r\n Players can negotiate alliances and trade anything but glory, and while they must keep their word for immediate exchanges and actions, they can break promises or alliances in later turns, although doing so requires them to suffer the \"judgement of pirates\", thereby affecting their glory count. Collect four such points, and they can no longer ally with other players or give or receive assistance. \r\n\r\n When a player has nine or more glory points or the space deck contains two or fewer cards, the game ends and whoever has the most glory wins. ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1547277059951",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1547277059951",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1547277059951",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1547277059951",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1547277059951",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1547277059951",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1547277059951"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/bkgWnwzOqt/metal-adventures",
+      "price": "22.50",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Matagot",
+      "publishers": [
+        "Matagot",
+        "Asmodee",
+        "Asterion Press"
+      ],
+      "mechanics": [
+        {
+          "id": "iWODHwRGuU"
+        },
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "GNtouC8NLm"
+        },
+        {
+          "id": "lA3KUtVFCy"
+        },
+        {
+          "id": "T8JEFYwoqy"
+        },
+        {
+          "id": "AVY6EvSQTP"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [],
+      "designers": [
+        "Lionel Borg"
+      ],
+      "developers": [],
+      "artists": [
+        "Dimitri Bielak",
+        "Camille Durand-Kriegel",
+        "Rémi \"Remton\" Le Capon"
+      ],
+      "names": [],
+      "num_user_ratings": 0,
+      "official_url": "http://www.Matagot.com/spip.php?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 22.5,
+      "historical_low_date": {
+        "$date": "2019-11-07T12:01:46.163Z"
+      }
+    }
+  ]
+}

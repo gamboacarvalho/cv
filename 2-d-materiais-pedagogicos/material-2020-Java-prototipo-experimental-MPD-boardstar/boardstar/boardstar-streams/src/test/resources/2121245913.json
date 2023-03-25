@@ -1,0 +1,823 @@
+{
+  "games": [
+    {
+      "id": "yqR4PtpO8X",
+      "name": "Scythe",
+      "year_published": 2016,
+      "min_players": 1,
+      "max_players": 5,
+      "min_playtime": 90,
+      "max_playtime": 120,
+      "min_age": 14,
+      "description": "<i>Scythe</i> gives players almost complete control over their fate. Other than each player's individual hidden objective card, the only elements of luck or variability are &quot;Encounter&quot; cards that players will draw as they interact with the citizens of newly explored lands. Each encounter card provides the player with several options, allowing them to mitigate the luck of the draw through their selection. Combat is also driven by choices, not luck or randomness.<br />\r\n<br />\r\n<i>Scythe</i> uses a streamlined action-selection mechanism (no rounds or phases) to keep gameplay moving at a brisk pace and reduce downtime between turns. While there is plenty of direct conflict for players who seek it, there is no player elimination.<br />\r\n<br />\r\nEvery part of <i>Scythe</i> has an aspect of engine-building to it. Players can upgrade actions to become more efficient, build structures that improve their position on the map, enlist new recruits to enhance character abilities, activate mechs to deter opponents from invading, and expand their borders to reap greater types and quantities of resources. These engine-building aspects create a sense of momentum and progress throughout the game. The order in which players improve their engine adds to the unique feel of each game, even when playing one faction multiple times.",
+      "description_preview": " Scythe  gives players almost complete control over their fate. Other than each player's individual hidden objective card, the only elements of luck or variability are \"Encounter\" cards that players will draw as they interact with the citizens of newly explored lands. Each encounter card provides the player with several options, allowing them to mitigate the luck of the draw through their selection. Combat is also driven by choices, not luck or randomness. \r\n \r\n Scythe  uses a streamlined action-selection mechanism (no rounds or phases) to keep gameplay moving at a brisk pace and reduce downtime between turns. While there is plenty of direct conflict for players who seek it, there is no player elimination. \r\n \r\nEvery part of  Scythe  has an aspect of engine-building to it. Players can upgrade actions to become more efficient, build structures that improve their position on the map, enlist new recruits to enhance character abilities, activate mechs to deter opponents from invading, and expand their borders to reap greater types and quantities of resources. These engine-building aspects create a sense of momentum and progress throughout the game. The order in which players improve their engine adds to the unique feel of each game, even when playing one faction multiple times.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254971843-513-lrmjs2L.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254971843-513-lrmjs2L.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254971843-513-lrmjs2L.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254971843-513-lrmjs2L.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254971843-513-lrmjs2L.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254971843-513-lrmjs2L.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254971843-513-lrmjs2L.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/yqR4PtpO8X/scythe",
+      "price": "59.99",
+      "msrp": "79.99",
+      "discount": "0.25",
+      "primary_publisher": "Stonemaier Games",
+      "publishers": [
+        "Stonemaier Games"
+      ],
+      "mechanics": [
+        {
+          "id": "Bc7R8pLoGk"
+        },
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "yu3eas6v7A"
+        },
+        {
+          "id": "hUn7uJHrYm"
+        },
+        {
+          "id": "kS8npG0jl8"
+        },
+        {
+          "id": "qu5BcGjAzk"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        },
+        {
+          "id": "fBOTEBUAmV"
+        }
+      ],
+      "categories": [
+        {
+          "id": "85OKv8p5Ow"
+        },
+        {
+          "id": "nWDac9tQzt"
+        },
+        {
+          "id": "h8wfZG0j3I"
+        },
+        {
+          "id": "zyj9ZK3mHB"
+        },
+        {
+          "id": "3B3QpKvXD3"
+        },
+        {
+          "id": "O0ogzwLUe8"
+        },
+        {
+          "id": "buDTYyPw4D"
+        }
+      ],
+      "designers": [
+        "Jamey Stegmaier"
+      ],
+      "developers": [],
+      "artists": [
+        "Jakub Różalski"
+      ],
+      "names": [
+        "Scythe (Ding & Dent)",
+        "Scythe"
+      ],
+      "num_user_ratings": 379,
+      "average_user_rating": 3.867733805910798,
+      "official_url": "https://stonemaiergames.com/games/scythe/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://app.box.com/s/rj3jrw0rab2uiz02up89kbant5g8ew1p",
+      "weight_amount": 7.1,
+      "weight_units": "lbs",
+      "size_height": 11.8,
+      "size_width": 4,
+      "size_depth": 14.6,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "DgUgwpJBdB"
+        },
+        {
+          "id": "4t4ckaX5rW"
+        },
+        {
+          "id": "SUAehOp3O5"
+        }
+      ],
+      "reddit_all_time_count": 1361,
+      "reddit_week_count": 1,
+      "reddit_day_count": 7,
+      "historical_low_price": 39.99,
+      "historical_low_date": {
+        "$date": "2019-07-15T18:31:02.109Z"
+      }
+    },
+    {
+      "id": "7o1BvaDKoO",
+      "name": "Eclipse",
+      "year_published": 2011,
+      "min_players": 2,
+      "max_players": 6,
+      "min_playtime": 84,
+      "max_playtime": 96,
+      "min_age": 13,
+      "description": "A game of Eclipse places you in control of vast interstellar civilizations, competing for success. You will explore new star systems, research technologies and build spaceships to wage war with. There are many potential paths to victory, so you need to plan your strategy according to the strengths and weaknesses of your species while paying attention to the other civilizations' endeavors. <br />\r\n<br />\r\nIn the core of Eclipse, there are innovative resource management and action selection mechanisms. Even though you explore space and take over new sectors on the common game board, all the production and resource management is done conveniently on your own player board. The upkeep cost of your civilization rises rapidly as you take more actions and the area you control increases. This creates an interesting balancing problem and restrains the exponential growth of the civilizations.<br />\r\n<br />\r\nEclipse is an epic empire building game that even with full player count can be played under three hours. Euro-type game mechanisms offer a smooth gameplay and minimize the downtime. Nevertheless, Eclipse has a lot of details and theme woven seamlessly into the game. For example, you may design your own starships: each player has four ship types that they can build and design as they will. The technology tree also has a new, non-linear system.<br />\r\n<br />\r\nEclipse has seven different species for you to choose from. Each player can either play as Terrans (ie. humans) or one of the unique alien species. Each species has different characteristics and abilities. The modular board and the dynamic technology tree ensure that each session of Eclipse is unique!",
+      "description_preview": "A game of Eclipse places you in control of vast interstellar civilizations, competing for success. You will explore new star systems, research technologies and build spaceships to wage war with. There are many potential paths to victory, so you need to plan your strategy according to the strengths and weaknesses of your species while paying attention to the other civilizations' endeavors.  \r\n \r\nIn the core of Eclipse, there are innovative resource management and action selection mechanisms. Even though you explore space and take over new sectors on the common game board, all the production and resource management is done conveniently on your own player board. The upkeep cost of your civilization rises rapidly as you take more actions and the area you control increases. This creates an interesting balancing problem and restrains the exponential growth of the civilizations. \r\n \r\nEclipse is an epic empire building game that even with full player count can be played under three hours. Euro-type game mechanisms offer a smooth gameplay and minimize the downtime. Nevertheless, Eclipse has a lot of details and theme woven seamlessly into the game. For example, you may design your own starships: each player has four ship types that they can build and design as they will. The technology tree also has a new, non-linear system. \r\n \r\nEclipse has seven different species for you to choose from. Each player can either play as Terrans (ie. humans) or one of the unique alien species. Each species has different characteristics and abilities. The modular board and the dynamic technology tree ensure that each session of Eclipse is unique!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254990669-51xKxUssM2BL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254990669-51xKxUssM2BL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254990669-51xKxUssM2BL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254990669-51xKxUssM2BL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254990669-51xKxUssM2BL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254990669-51xKxUssM2BL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254990669-51xKxUssM2BL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/7o1BvaDKoO/eclipse-board-game",
+      "price": "169.99",
+      "msrp": "84.99",
+      "discount": "-1.00",
+      "primary_publisher": "Asmodee Editions",
+      "publishers": [
+        "Asmodee Editions"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "qu5BcGjAzk"
+        },
+        {
+          "id": "8PN2HE86wg"
+        }
+      ],
+      "categories": [
+        {
+          "id": "85OKv8p5Ow"
+        },
+        {
+          "id": "329DxyFL9D"
+        },
+        {
+          "id": "upXZ8vNfNO"
+        },
+        {
+          "id": "3B3QpKvXD3"
+        }
+      ],
+      "designers": [
+        "Touko Tahkokallio"
+      ],
+      "developers": [],
+      "artists": [
+        "Ossi Hiekkala",
+        "Sampo Sikiö"
+      ],
+      "names": [],
+      "num_user_ratings": 118,
+      "average_user_rating": 3.601694915254237,
+      "official_url": "http://drafts.asmodee.us/en/games/eclipse/products/eclipse/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://www.fgbradleys.com/rules/rules4/Eclipse%20-%20rules.pdf",
+      "weight_amount": 6.08,
+      "weight_units": "lbs",
+      "size_height": 11,
+      "size_width": 3.5,
+      "size_depth": 16,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 293,
+      "reddit_week_count": 2,
+      "reddit_day_count": 2,
+      "historical_low_price": 74.99,
+      "historical_low_date": {
+        "$date": "2020-02-13T10:05:28.794Z"
+      }
+    },
+    {
+      "id": "5tnoVda0AY",
+      "name": "Twilight Imperium 4th Edition",
+      "year_published": 2017,
+      "min_players": 3,
+      "max_players": 6,
+      "min_playtime": 240,
+      "max_playtime": 480,
+      "min_age": 14,
+      "description": "<i>Mecatol Rex. The center of the known galaxy and seat of the former Lazax Empire. Scarred by the flames of betrayal, Rex is a specter of a fallen empire and of ages long forgotten, yet it remains an object of reverence-and desire-in a galaxy of conflict and uncertainty.<br />\r\n<br />\r\nOnce, the great city that spanned its surface was the pinnacle of civilization. Today, Mecatol City is naught but a blasted shell of its former glory, a grim respite in the toxic Sea of Desolation that covers the majority of the planet.<br />\r\n<br />\r\nEven so, its parabolic history of decadence and destruction does little to deter those who would seek to harness its power. The Winaaran custodians who dwell within the remnants of the city maintain what is left of the former capital, waiting for one of the Great Races to step forward and take up the mantle of the former Emperors.<br />\r\n<br />\r\nBut who among the races of the galaxy could fill the void left by the Lazax? To lay claim to the throne is a destiny sought by many, yet the shadows of the past serve as a grim warning to those who would follow in their footsteps...</i> <br />\r\n<br />\r\nFor two decades, Twilight Imperium has thrilled gamers with its grand storytelling and tactical strategy. Now players can explore the next step in the Twilight Imperium Legacy with Twilight Imperium Fourth Edition, an epic game of galactic conquest for three to six players.<br />\r\n<br />\r\nEach player takes command of one of seventeen unique civilizations to compete for interstellar supremacy through warfare, trade, uncertain allegiances, and political dominance. Every faction offers a completely different play experience, from the wormhole-hopping Ghosts of Creuss to the Emiratates of Hacan, the masters of trade. All of these races have many paths to victory, but only one will sit upon the throne of Mecatol Rex as the new masters of the galaxy.",
+      "description_preview": " Mecatol Rex. The center of the known galaxy and seat of the former Lazax Empire. Scarred by the flames of betrayal, Rex is a specter of a fallen empire and of ages long forgotten, yet it remains an object of reverence-and desire-in a galaxy of conflict and uncertainty. \r\n \r\nOnce, the great city that spanned its surface was the pinnacle of civilization. Today, Mecatol City is naught but a blasted shell of its former glory, a grim respite in the toxic Sea of Desolation that covers the majority of the planet. \r\n \r\nEven so, its parabolic history of decadence and destruction does little to deter those who would seek to harness its power. The Winaaran custodians who dwell within the remnants of the city maintain what is left of the former capital, waiting for one of the Great Races to step forward and take up the mantle of the former Emperors. \r\n \r\nBut who among the races of the galaxy could fill the void left by the Lazax? To lay claim to the throne is a destiny sought by many, yet the shadows of the past serve as a grim warning to those who would follow in their footsteps...   \r\n \r\nFor two decades, Twilight Imperium has thrilled gamers with its grand storytelling and tactical strategy. Now players can explore the next step in the Twilight Imperium Legacy with Twilight Imperium Fourth Edition, an epic game of galactic conquest for three to six players. \r\n \r\nEach player takes command of one of seventeen unique civilizations to compete for interstellar supremacy through warfare, trade, uncertain allegiances, and political dominance. Every faction offers a completely different play experience, from the wormhole-hopping Ghosts of Creuss to the Emiratates of Hacan, the masters of trade. All of these races have many paths to victory, but only one will sit upon the throne of Mecatol Rex as the new masters of the galaxy.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254204253-61tFEZboIsL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254204253-61tFEZboIsL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254204253-61tFEZboIsL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254204253-61tFEZboIsL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254204253-61tFEZboIsL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254204253-61tFEZboIsL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254204253-61tFEZboIsL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/5tnoVda0AY/twilight-imperium-4th-edition",
+      "price": "119.47",
+      "msrp": "127.49",
+      "discount": "0.06",
+      "primary_publisher": "Fantasy Flight Games",
+      "publishers": [
+        "Fantasy Flight Games"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "lA3KUtVFCy"
+        },
+        {
+          "id": "AVY6EvSQTP"
+        },
+        {
+          "id": "JYYdBW6UCE"
+        }
+      ],
+      "categories": [
+        {
+          "id": "85OKv8p5Ow"
+        },
+        {
+          "id": "N0TkEGfEsF"
+        },
+        {
+          "id": "jZEDOpx07e"
+        },
+        {
+          "id": "TKQncFVX74"
+        },
+        {
+          "id": "3B3QpKvXD3"
+        }
+      ],
+      "designers": [
+        "Dane Beltrami",
+        "Corey Konieczka",
+        "Christian T. Petersen"
+      ],
+      "developers": [],
+      "artists": [
+        "Scott Schomburg"
+      ],
+      "names": [],
+      "num_user_ratings": 73,
+      "average_user_rating": 4.150684931506851,
+      "official_url": "https://www.fantasyflightgames.com/en/products/twilight-imperium-fourth-edition/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://images-cdn.fantasyflightgames.com/filer_public/f3/c6/f3c66512-8e19-4f30-a0d4-d7d75701fd37/ti-k0289_learn_to_playcompressed.pdf",
+      "weight_amount": 13,
+      "weight_units": "oz.",
+      "size_height": 11.8,
+      "size_width": 5.3,
+      "size_depth": 17.1,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "kiFcQHQ9VD"
+        },
+        {
+          "id": "8yNHQaaOfx"
+        }
+      ],
+      "reddit_all_time_count": 188,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 89.97,
+      "historical_low_date": {
+        "$date": "2019-04-25T12:47:33.524Z"
+      }
+    },
+    {
+      "id": "Cq7HxW69ib",
+      "name": "Space Empires 4X",
+      "year_published": 2011,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 90,
+      "max_playtime": 240,
+      "min_age": 12,
+      "description": "Space Empires is a game in the finest tradition of 4X space games - eXplore, eXpand, eXploit, and eXterminate. Make no mistake. All four ''X's'' are included in this game. This is a wargame where the purpose of building your empire is not to feel good about your achievement, but to destroy your enemies and burn their colonies.<br /><br />\r\nOne difficulty in games of this genre is that they are often either overly simplistic or tediously detailed. Space Empires has been almost 20 years in the making and, during that time, many elegant solutions have been developed to keep the theme rich without a lot of rules. The game includes carriers and fighters, mines, cloaking, a very large technology tree, fifteen ship classes from scout to dreadnaught, merchant shipping, colonization, mining, terraforming, bases, shipyards, black holes, warp points, and non-player aliens, yet the rules are short and intuitive and the game can be finished on one sitting. This is NOT a game that is hard to get into. The playtest rules are only 6 pages long for the basic game and increase to 10 pages in length when all the advanced rules, optional rules, and scenarios are included. <br /><br />\r\nExploration is easy (well, easy for you, it is actually dangerous for your ships) and fun and reveals different terrain (such as asteroids and nebulas) which affect your movement and your combat. The map is printed on both sides to make set up easier. One side is used for the 2 player game and the other side for the 3-4 player game.",
+      "description_preview": "Space Empires is a game in the finest tradition of 4X space games - eXplore, eXpand, eXploit, and eXterminate. Make no mistake. All four ''X's'' are included in this game. This is a wargame where the purpose of building your empire is not to feel good about your achievement, but to destroy your enemies and burn their colonies.  \r\nOne difficulty in games of this genre is that they are often either overly simplistic or tediously detailed. Space Empires has been almost 20 years in the making and, during that time, many elegant solutions have been developed to keep the theme rich without a lot of rules. The game includes carriers and fighters, mines, cloaking, a very large technology tree, fifteen ship classes from scout to dreadnaught, merchant shipping, colonization, mining, terraforming, bases, shipyards, black holes, warp points, and non-player aliens, yet the rules are short and intuitive and the game can be finished on one sitting. This is NOT a game that is hard to get into. The playtest rules are only 6 pages long for the basic game and increase to 10 pages in length when all the advanced rules, optional rules, and scenarios are included.   \r\nExploration is easy (well, easy for you, it is actually dangerous for your ships) and fun and reveals different terrain (such as asteroids and nebulas) which affect your movement and your combat. The map is printed on both sides to make set up easier. One side is used for the 2 player game and the other side for the 3-4 player game.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255008572-51dN0IU1vRL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255008572-51dN0IU1vRL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559255008572-51dN0IU1vRL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559255008572-51dN0IU1vRL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559255008572-51dN0IU1vRL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559255008572-51dN0IU1vRL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255008572-51dN0IU1vRL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/Cq7HxW69ib/space-empires-4x",
+      "price": "50.25",
+      "msrp": "75.00",
+      "discount": "0.33",
+      "primary_publisher": "GMT Games",
+      "publishers": [
+        "GMT Games"
+      ],
+      "mechanics": [
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "RwgEONzIzc"
+        },
+        {
+          "id": "eRe1jJCBFe"
+        }
+      ],
+      "categories": [
+        {
+          "id": "85OKv8p5Ow"
+        }
+      ],
+      "designers": [
+        "Jim Krohn"
+      ],
+      "developers": [],
+      "artists": [
+        "Rodger B. MacGowan",
+        "Mark Simonitch"
+      ],
+      "names": [],
+      "num_user_ratings": 17,
+      "average_user_rating": 3.5,
+      "official_url": "http://www.gmtgames.com/p-533-space-empires-3rd-printing.aspx?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://www.gmtgames.com/spaceemp/SE-Rules-4B.pdf",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 89,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 42.99,
+      "historical_low_date": {
+        "$date": "2019-06-26T21:58:08.988Z"
+      }
+    },
+    {
+      "id": "xR5jNzIUUf",
+      "name": "Heroes of Land, Air, & Sea",
+      "year_published": 2018,
+      "min_players": 1,
+      "max_players": 4,
+      "min_playtime": 30,
+      "max_playtime": 120,
+      "min_age": 14,
+      "description": "<br />\r\n\r\n<p><br /><i>Heroes of Land, Air, &amp; Sea</i> is a 4X-style board game with miniatures that tells the epic tale of orcs vs. humans, dwarves vs. elves, battling kingdoms, and the individuals who turn the tides of war.<br /><br />Players control one of these classic factions, competing to expand their kingdom into new territory. Even the greatest kingdoms begin as small townships, therefore players begin with only a basic town hall, a couple of peons, and a single warrior. From there, players must explore the territory around them, build up their work force, fortify their army, and develop their kingdom - all through careful action selection, exploitation, war, and resource management.<br /><br />As players reach milestones in the development of their kingdom, they gain access to many advantages. Peons become warriors, warriors become powerful heroes, and town halls eventually become castles. Players gain access to water, and even air, vessels and creatures. Boarding these vessels and creatures with your units allows for faster travel across the vast game board and for positioning armies for powerful attacks.</p><p></p>",
+      "description_preview": " \r\n\r\n   Heroes of Land, Air, & Sea  is a 4X-style board game with miniatures that tells the epic tale of orcs vs. humans, dwarves vs. elves, battling kingdoms, and the individuals who turn the tides of war.  Players control one of these classic factions, competing to expand their kingdom into new territory. Even the greatest kingdoms begin as small townships, therefore players begin with only a basic town hall, a couple of peons, and a single warrior. From there, players must explore the territory around them, build up their work force, fortify their army, and develop their kingdom - all through careful action selection, exploitation, war, and resource management.  As players reach milestones in the development of their kingdom, they gain access to many advantages. Peons become warriors, warriors become powerful heroes, and town halls eventually become castles. Players gain access to water, and even air, vessels and creatures. Boarding these vessels and creatures with your units allows for faster travel across the vast game board and for positioning armies for powerful attacks.   ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541108958594",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541108958594",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1541108958594",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1541108958594",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1541108958594",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1541108958594",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541108958594"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/xR5jNzIUUf/heroes-of-land-air--sea",
+      "price": "79.99",
+      "msrp": "100.00",
+      "discount": "0.20",
+      "primary_publisher": "Gamelyn Games",
+      "publishers": [
+        "Gamelyn Games"
+      ],
+      "mechanics": [
+        {
+          "id": "oeg6wN9Eoc"
+        },
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "T8JEFYwoqy"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        },
+        {
+          "id": "fBOTEBUAmV"
+        }
+      ],
+      "categories": [
+        {
+          "id": "85OKv8p5Ow"
+        },
+        {
+          "id": "yq6hVlbM2R"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "upXZ8vNfNO"
+        },
+        {
+          "id": "QAYkTHK1Dd"
+        },
+        {
+          "id": "FC6ElKI9tk"
+        },
+        {
+          "id": "O0ogzwLUe8"
+        },
+        {
+          "id": "jX8asGGR6o"
+        }
+      ],
+      "designers": [
+        "Scott Almes"
+      ],
+      "developers": [],
+      "artists": [
+        "Chad Hoverter",
+        "Adam P. McIver",
+        "Ian Rosenthaler",
+        "Benjamin Shulman"
+      ],
+      "names": [
+        "Heroes of Land, Air & Sea UNPAINTED - 4X RTS Large Scale Board Game"
+      ],
+      "num_user_ratings": 19,
+      "average_user_rating": 3.263157894736841,
+      "official_url": "https://www.gamelyngames.com/heroes-of-land-air-sea/heroes-of-land-air-sea?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://www.gamelyngames.com/games/heroes-land-air-sea",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 32,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 58.48,
+      "historical_low_date": {
+        "$date": "2019-12-18T09:36:05.903Z"
+      }
+    },
+    {
+      "id": "Uhog7EYxwB",
+      "name": "Hyperspace",
+      "year_published": 2019,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 30,
+      "max_playtime": 150,
+      "min_age": 14,
+      "description": "<p><em>Hyperspace</em> is a fast-moving 2-4 player asymmetric strategy game about interstellar expansion. In it, you take the part of an interstellar civilization competing to control a newly-discovered star cluster! Construct your empire, fight for resources, and research technology. Each alien species has its own unique flaws and advantages, and victory lies in recognizing this. The game is physically attractive, and includes well over one hundred figures of spaceships, starbases, colonies, alien citizens, and so forth. It takes place in a star cluster built up of individual pieces that changes every time you play.</p><p>The base game has four different alien civs from which to choose, but various expansions and add-ons increase this to 25 total alien Civs (one of which is secret, to be revealed during the Kickstarter campaign). The game does not have any sort of upkeep or victory phase. Instead, when it is a player's turn, they perform three actions, then play passes to the next player. This continues around and around until the game ends, by accumulation of victory points. Most actions cost metal or atomic resources, and include moving, building, research, combat, salvage, production, and so forth.</p><p>As with other Petersen Games products, the game is highly asymmetrical, and the various civilizations have unique abilities, homeworlds, weaknesses, super-units, and super-technologies.</p><p>Driving the strategy are a player's need to advance along the victory tracks. These permit players to score points by advancing along Probe, Research, Industry, and Battle tracks (representing exploration, experimentation, expansion, and extermination).</p><p>The base game supports 2-4 players, but with expansions the game can support up to six players. Unlike many multiplayer games, the game is balanced and works just as well with 2-3 players as it does with 4-6.</p>",
+      "description_preview": "  Hyperspace  is a fast-moving 2-4 player asymmetric strategy game about interstellar expansion. In it, you take the part of an interstellar civilization competing to control a newly-discovered star cluster! Construct your empire, fight for resources, and research technology. Each alien species has its own unique flaws and advantages, and victory lies in recognizing this. The game is physically attractive, and includes well over one hundred figures of spaceships, starbases, colonies, alien citizens, and so forth. It takes place in a star cluster built up of individual pieces that changes every time you play.  The base game has four different alien civs from which to choose, but various expansions and add-ons increase this to 25 total alien Civs (one of which is secret, to be revealed during the Kickstarter campaign). The game does not have any sort of upkeep or victory phase. Instead, when it is a player's turn, they perform three actions, then play passes to the next player. This continues around and around until the game ends, by accumulation of victory points. Most actions cost metal or atomic resources, and include moving, building, research, combat, salvage, production, and so forth.  As with other Petersen Games products, the game is highly asymmetrical, and the various civilizations have unique abilities, homeworlds, weaknesses, super-units, and super-technologies.  Driving the strategy are a player's need to advance along the victory tracks. These permit players to score points by advancing along Probe, Research, Industry, and Battle tracks (representing exploration, experimentation, expansion, and extermination).  The base game supports 2-4 players, but with expansions the game can support up to six players. Unlike many multiplayer games, the game is balanced and works just as well with 2-3 players as it does with 4-6. ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1550254611739",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1550254611739",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1550254611739",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1550254611739",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1550254611739",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1550254611739",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1550254611739"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/Uhog7EYxwB/hyperspace",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "",
+      "publishers": [
+        "Petersen Games"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "U3zhCQH7Et"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [
+        {
+          "id": "85OKv8p5Ow"
+        },
+        {
+          "id": "329DxyFL9D"
+        },
+        {
+          "id": "3B3QpKvXD3"
+        }
+      ],
+      "designers": [
+        "Sandy Petersen"
+      ],
+      "developers": [],
+      "artists": [
+        "Kent Hamilton"
+      ],
+      "names": [],
+      "num_user_ratings": 1,
+      "average_user_rating": 4,
+      "official_url": "https://www.kickstarter.com/projects/petersengames/hyperspace?ref=9g90ol&utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://drive.google.com/open?id=1ze8eD6BsApNCuS8QP6io-jUkr1hRTAnl",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 10,
+      "reddit_week_count": 0,
+      "reddit_day_count": 1
+    },
+    {
+      "id": "6jDM7kqKI7",
+      "name": "Conquest of Paradise Deluxe 2nd Edition",
+      "year_published": null,
+      "min_players": null,
+      "max_players": null,
+      "min_playtime": null,
+      "max_playtime": null,
+      "min_age": null,
+      "description": "Conquest of Paradise is a game of empire building in the &quot;Polynesian Triangle&quot; of the central Pacific Ocean for two, three, or four players. Players explore the unknown ocean around them, hoping to discover the most lucrative island groups, and colonize them. They build canoes and train warriors to create a force to defend their empire, while forging lines of communication with their developing discoveries. Resources are scarce; using them wisely is a key to victory. Investing in exploration widens your empire. Building warriors strengthens your empire. Investing resources into cultural innovations can yield unexpected dividends, like tattooing, hula dancing, surfing, or even the giant moai statues of Easter Island fame.<br /><br /> Conquest of Paradise is a well-tested, fast-playing design geared to appeal to players who enjoy games like New World, Civilization, and Conquistador. You can learn the game in 10-15 minutes and finish a complete game in 60-90 minutes.<br /><br /> Conquest of Paradise is a game of exploration and empire building, but also (as you'd expect from a GMT game) CONFLICT. Choosing when to build those expensive warriors, and when and where to fight, given limited resources, is key to your success.",
+      "description_preview": "Conquest of Paradise is a game of empire building in the \"Polynesian Triangle\" of the central Pacific Ocean for two, three, or four players. Players explore the unknown ocean around them, hoping to discover the most lucrative island groups, and colonize them. They build canoes and train warriors to create a force to defend their empire, while forging lines of communication with their developing discoveries. Resources are scarce; using them wisely is a key to victory. Investing in exploration widens your empire. Building warriors strengthens your empire. Investing resources into cultural innovations can yield unexpected dividends, like tattooing, hula dancing, surfing, or even the giant moai statues of Easter Island fame.   Conquest of Paradise is a well-tested, fast-playing design geared to appeal to players who enjoy games like New World, Civilization, and Conquistador. You can learn the game in 10-15 minutes and finish a complete game in 60-90 minutes.   Conquest of Paradise is a game of exploration and empire building, but also (as you'd expect from a GMT game) CONFLICT. Choosing when to build those expensive warriors, and when and where to fight, given limited resources, is key to your success.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257208783-51z63LBAO4L.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257208783-51z63LBAO4L.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559257208783-51z63LBAO4L.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559257208783-51z63LBAO4L.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559257208783-51z63LBAO4L.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559257208783-51z63LBAO4L.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257208783-51z63LBAO4L.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/6jDM7kqKI7/conquest-of-paradise-deluxe-2nd-edition",
+      "price": "41.99",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "GMT Games",
+      "publishers": [
+        "GMT Games"
+      ],
+      "mechanics": [],
+      "categories": [
+        {
+          "id": "85OKv8p5Ow"
+        }
+      ],
+      "designers": [],
+      "developers": [],
+      "artists": [],
+      "names": [],
+      "num_user_ratings": 0,
+      "official_url": null,
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 8,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 33.91,
+      "historical_low_date": {
+        "$date": "2019-11-12T10:03:22.109Z"
+      }
+    },
+    {
+      "id": "2nIK13bbh2",
+      "name": "Sid Meier's Civilization: The Board Game",
+      "year_published": 2010,
+      "min_players": null,
+      "max_players": null,
+      "min_playtime": 120,
+      "max_playtime": 240,
+      "min_age": 13,
+      "description": "<p>Before you lies a vast bounty of land, ripe for the plucking. Your meager beginnings will influence the paths you must take. Lead your people well and they will take you to infinite heights of greatness. If civilization manages to endure the ages, your name will hang in every whisper of its legacy...</p><p>\r\n\r\n</p><p>Fantasy Flight Games is excited to announce the upcoming release of <strong>Sid Meier’s Civilization: The Board Game</strong>! Forge an empire to stand the test of time using innovative game mechanics with multiple paths to victory.</p><p>\r\n\r\n</p><p>Will you lead the greatest army in the world to conquer your foes? Or will you be the first to journey to the stars, becoming the most technologically advanced civilization known to man? The choice is yours.</p><p>\r\n\r\n</p><p>Designed by Kevin Wilson, <strong>Civilization: The Board Game</strong> is inspired by the legendary video game series created by Sid Meier. Players are tasked with guiding an entire civilization throughout the ages, taking ownership of your people’s technology, economy, culture, and military, as well as all the choices that go along with them. There are four different paths to victory, and each is riddled with opposition.</p><p>\r\n\r\n</p><p>In <strong>Civilization: The Board Game</strong>, 2-4 players take on the roles of famous leaders in charge of historical civilizations, each with their own abilities. Players will be able to explore a module game board, build cities and buildings, fight battles, research powerful technology, and attract great people by advancing their culture. No matter what your play style is, there is a civilization for you!</p><p>\r\n\r\n</p><p>Fans of Sid Meier’s classic video game franchise will find familiar footing in <strong>Civilization: The Board Game</strong>. Staying true to the foundations of its video game predecessor while creating a new and unique way to play, <strong>Civilization: The Board Game</strong> captures the spirit and grandeur of carving out a magnificent empire from modest beginnings.</p><p>\r\n\r\n</p><p>Players start off with a single city, one army figure, and one scout, and from these meager origins you must forge through the ages and become the greatest civilization in the world.</p><p>\r\n\r\n</p><p>Those unfamiliar with the video game series will find <strong>Civilization: The Board Game</strong> a great way to enter into the world of Civilization. The strategy and tactical decisions involved in <strong>Civilization: The Board Game</strong> will appeal to strategy gamers and war gamers alike, and the ability to win through culture and technological advancement will give those who only wish to focus on their own empire a chance at victory as well.</p><p><b></b><i></i><strike></strike><br /></p>",
+      "description_preview": " Before you lies a vast bounty of land, ripe for the plucking. Your meager beginnings will influence the paths you must take. Lead your people well and they will take you to infinite heights of greatness. If civilization manages to endure the ages, your name will hang in every whisper of its legacy...  \r\n\r\n  Fantasy Flight Games is excited to announce the upcoming release of  Sid Meier’s Civilization: The Board Game ! Forge an empire to stand the test of time using innovative game mechanics with multiple paths to victory.  \r\n\r\n  Will you lead the greatest army in the world to conquer your foes? Or will you be the first to journey to the stars, becoming the most technologically advanced civilization known to man? The choice is yours.  \r\n\r\n  Designed by Kevin Wilson,  Civilization: The Board Game  is inspired by the legendary video game series created by Sid Meier. Players are tasked with guiding an entire civilization throughout the ages, taking ownership of your people’s technology, economy, culture, and military, as well as all the choices that go along with them. There are four different paths to victory, and each is riddled with opposition.  \r\n\r\n  In  Civilization: The Board Game , 2-4 players take on the roles of famous leaders in charge of historical civilizations, each with their own abilities. Players will be able to explore a module game board, build cities and buildings, fight battles, research powerful technology, and attract great people by advancing their culture. No matter what your play style is, there is a civilization for you!  \r\n\r\n  Fans of Sid Meier’s classic video game franchise will find familiar footing in  Civilization: The Board Game . Staying true to the foundations of its video game predecessor while creating a new and unique way to play,  Civilization: The Board Game  captures the spirit and grandeur of carving out a magnificent empire from modest beginnings.  \r\n\r\n  Players start off with a single city, one army figure, and one scout, and from these meager origins you must forge through the ages and become the greatest civilization in the world.  \r\n\r\n  Those unfamiliar with the video game series will find  Civilization: The Board Game  a great way to enter into the world of Civilization. The strategy and tactical decisions involved in  Civilization: The Board Game  will appeal to strategy gamers and war gamers alike, and the ability to win through culture and technological advancement will give those who only wish to focus on their own empire a chance at victory as well.          ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1555815811073",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1555815811073",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1555815811073",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1555815811073",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1555815811073",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1555815811073",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1555815811073"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/2nIK13bbh2/sid-meiers-civilization-the-board-game",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Fantasy Flight Games",
+      "publishers": [
+        "Fantasy Flight Games"
+      ],
+      "mechanics": [
+        {
+          "id": "amcImLdOmD"
+        },
+        {
+          "id": "kS8npG0jl8"
+        },
+        {
+          "id": "qu5BcGjAzk"
+        },
+        {
+          "id": "U3zhCQH7Et"
+        },
+        {
+          "id": "YyBg5CzHBF"
+        },
+        {
+          "id": "j7x8jY4ay2"
+        },
+        {
+          "id": "yDlgk7rXno"
+        },
+        {
+          "id": "AVY6EvSQTP"
+        }
+      ],
+      "categories": [
+        {
+          "id": "85OKv8p5Ow"
+        },
+        {
+          "id": "329DxyFL9D"
+        },
+        {
+          "id": "yq6hVlbM2R"
+        },
+        {
+          "id": "O0ogzwLUe8"
+        }
+      ],
+      "designers": [
+        "Kevin Wilson"
+      ],
+      "developers": [],
+      "artists": [
+        "Henning Ludvigsen"
+      ],
+      "names": [
+        "Sid Meier's Civilization: The Board Game"
+      ],
+      "num_user_ratings": 30,
+      "average_user_rating": 3.166666666666666,
+      "official_url": "https://www.fantasyflightgames.com/en/products/civilization/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://images-cdn.fantasyflightgames.com/filer_public/1a/10/1a1063a1-ee84-44ac-a79a-237277010a6f/civ_rulebook_eng_lo-res.pdf",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 3,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0
+    },
+    {
+      "id": "BpP352vFUc",
+      "name": "Far Away",
+      "year_published": 2019,
+      "min_players": 2,
+      "max_players": 2,
+      "min_playtime": 90,
+      "max_playtime": 120,
+      "min_age": 10,
+      "description": "<div><p>Far Away is a two-player cooperative board game about discovery, survival, and the crushing loneliness of being the only two humans for lightyears.</p><p>Join the Federation Alliance, a bureaucracy with an ambitious charter of mapping new worlds and a minimalist budget. Succeed in a variety of missions on randomly generated worlds with unique ecosystems, without luxuries like radios, landing gear, and medical supplies. Trust in your partner is paramount since, without radios, you can’t communicate (in real life) after separating on the game board.</p><p>Survive, and you’ll be rewarded with a meager paycheck. Succumb to the planet, and you’ll find help is too Far Away.</p></div>",
+      "description_preview": "  Far Away is a two-player cooperative board game about discovery, survival, and the crushing loneliness of being the only two humans for lightyears.  Join the Federation Alliance, a bureaucracy with an ambitious charter of mapping new worlds and a minimalist budget. Succeed in a variety of missions on randomly generated worlds with unique ecosystems, without luxuries like radios, landing gear, and medical supplies. Trust in your partner is paramount since, without radios, you can’t communicate (in real life) after separating on the game board.  Survive, and you’ll be rewarded with a meager paycheck. Succumb to the planet, and you’ll find help is too Far Away.  ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1548388792301",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1548388792301",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1548388792301",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1548388792301",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1548388792301",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1548388792301",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1548388792301"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/BpP352vFUc/far-away",
+      "price": "31.47",
+      "msrp": "45.00",
+      "discount": "0.30",
+      "primary_publisher": "",
+      "publishers": [
+        "Cherry Picked Games"
+      ],
+      "mechanics": [
+        {
+          "id": "bgGxE0pI2B"
+        },
+        {
+          "id": "33UT4gTFqy"
+        }
+      ],
+      "categories": [
+        {
+          "id": "85OKv8p5Ow"
+        },
+        {
+          "id": "rrvd68LjOR"
+        },
+        {
+          "id": "3B3QpKvXD3"
+        }
+      ],
+      "designers": [
+        "Alexander Jerabek"
+      ],
+      "developers": [],
+      "artists": [
+        "Jake Breish"
+      ],
+      "names": [],
+      "num_user_ratings": 1,
+      "average_user_rating": 5,
+      "official_url": "https://www.cherrypickedgames.com/faraway?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://www.cherrypickedgames.com/faraway",
+      "weight_amount": 4,
+      "size_height": 12,
+      "size_width": 9,
+      "size_depth": 3,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 31.47,
+      "historical_low_date": {
+        "$date": "2020-01-08T10:02:57.181Z"
+      }
+    },
+    {
+      "id": "0rVAp3Sjgg",
+      "name": "The Final Flicktier",
+      "year_published": 2019,
+      "min_players": 1,
+      "max_players": 4,
+      "min_playtime": 60,
+      "max_playtime": 60,
+      "min_age": 10,
+      "description": "The Final Flicktier is a 4X style space game with dice flicking at its core. Players will take on the role of unique factions all vying for control of the galaxy. They’ll flick their spaceships (dice) around the board in order to explore new planets, build structures, harvest resources, and attack other factions. The player with the most victory points at the end wins.",
+      "description_preview": "The Final Flicktier is a 4X style space game with dice flicking at its core. Players will take on the role of unique factions all vying for control of the galaxy. They’ll flick their spaceships (dice) around the board in order to explore new planets, build structures, harvest resources, and attack other factions. The player with the most victory points at the end wins.",
+      "image_url": "https://ksr-ugc.imgix.net/assets/023/448/648/96301344e9d0d8ad3bbd7192ac64654a_original.png?ixlib=rb-1.1.0&crop=faces&w=560&h=315&fit=crop&v=1543774805&auto=format&frame=1&q=92&s=98239296307d4201b5b434d40a317e7b",
+      "thumb_url": "https://ksr-ugc.imgix.net/assets/023/448/648/96301344e9d0d8ad3bbd7192ac64654a_original.png?ixlib=rb-1.1.0&crop=faces&w=560&h=315&fit=crop&v=1543774805&auto=format&frame=1&q=92&s=98239296307d4201b5b434d40a317e7b",
+      "images": {
+        "thumb": "https://ksr-ugc.imgix.net/assets/023/448/648/96301344e9d0d8ad3bbd7192ac64654a_original.png?ixlib=rb-1.1.0&crop=faces&w=560&h=315&fit=crop&v=1543774805&auto=format&frame=1&q=92&s=98239296307d4201b5b434d40a317e7b",
+        "small": "https://ksr-ugc.imgix.net/assets/023/448/648/96301344e9d0d8ad3bbd7192ac64654a_original.png?ixlib=rb-1.1.0&crop=faces&w=560&h=315&fit=crop&v=1543774805&auto=format&frame=1&q=92&s=98239296307d4201b5b434d40a317e7b",
+        "medium": "https://ksr-ugc.imgix.net/assets/023/448/648/96301344e9d0d8ad3bbd7192ac64654a_original.png?ixlib=rb-1.1.0&crop=faces&w=560&h=315&fit=crop&v=1543774805&auto=format&frame=1&q=92&s=98239296307d4201b5b434d40a317e7b",
+        "large": "https://ksr-ugc.imgix.net/assets/023/448/648/96301344e9d0d8ad3bbd7192ac64654a_original.png?ixlib=rb-1.1.0&crop=faces&w=560&h=315&fit=crop&v=1543774805&auto=format&frame=1&q=92&s=98239296307d4201b5b434d40a317e7b",
+        "original": "https://ksr-ugc.imgix.net/assets/023/448/648/96301344e9d0d8ad3bbd7192ac64654a_original.png?ixlib=rb-1.1.0&crop=faces&w=560&h=315&fit=crop&v=1543774805&auto=format&frame=1&q=92&s=98239296307d4201b5b434d40a317e7b"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/0rVAp3Sjgg/the-final-flicktier",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Gabe Barrett",
+      "publishers": [
+        "Gabe Barrett"
+      ],
+      "mechanics": [
+        {
+          "id": "oeg6wN9Eoc"
+        },
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "BbTMRkwL0b"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [
+        {
+          "id": "85OKv8p5Ow"
+        },
+        {
+          "id": "rrvd68LjOR"
+        }
+      ],
+      "designers": [
+        "Gabe Barrett"
+      ],
+      "developers": [],
+      "artists": [
+        "Drew Corkill",
+        "Ash Jackson"
+      ],
+      "names": [],
+      "num_user_ratings": 2,
+      "average_user_rating": 3.5,
+      "official_url": "https://www.kickstarter.com/projects/105507699/the-final-flicktier-relaunch?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://docs.google.com/document/d/1ooF1vVDMdNsRXzzq9glFM-YfyOK9unFnbt5boML-dJg/edit?usp=sharing",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0
+    }
+  ]
+}

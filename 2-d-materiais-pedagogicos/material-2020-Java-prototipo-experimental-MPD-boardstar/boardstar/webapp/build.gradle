@@ -1,0 +1,31 @@
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+// Apply the application plugin to add support for building an application
+apply plugin: 'application'
+
+repositories {
+    // Use jcenter for resolving dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':boardstar-reactive')
+    implementation project(':util')
+
+    //Reactive Java
+    implementation 'io.reactivex.rxjava3:rxjava:3.0.3'
+
+    // Javalin
+    implementation 'io.javalin:javalin:3.8.0'
+    implementation 'org.slf4j:slf4j-jdk14:1.7.30'
+
+    //FreeMarker
+    implementation 'org.freemarker:freemarker:2.3.30'
+
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
+
+// Define the main class for the application
+mainClassName = 'org.isel.boardstar.BoardstarWebApp'
