@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <a href="/soccerapp/leagues">Home</a>
+        <table class="table table-responsive table-condensed">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Jersey Number</th>
+                    <th>Date of Birth</th>
+                    <th>Nationality</th>
+                    <th>Contract Until</th>
+                    <th>Market Value</th>
+                </tr>
+            </thead>
+            <tbody>
+            {{#each this}}
+                <tr>
+                    <td>{{name}}</td>
+                    <td>{{position}}</td>
+                    <td>{{jerseyNumber}}</td>
+                    <td>{{dateOfBirth}}</td>
+                    <td>{{nationality}}</td>
+                    <td>{{contractUntil}}</td>
+                    <td>{{marketValue}}</td>
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+    </body>
+</html>

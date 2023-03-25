@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <a href="/soccerapp/leagues">Home</a>
+        <br>
+        {{#if crestUrl}}
+            <img src={{crestUrl}} width="100" height="100"/>
+        {{/if}}
+        <div>
+            <ul>
+                <li>Team Name - {{name}}</li>
+                <li>Short Name - {{shortName}}</li>
+                <li>Team Market Value - {{squadMarketValue}}</li>
+            </ul>
+            <a href="/soccerapp/players/{{id}}"> List of Players</a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+<body>
+    <a href="/soccerapp/leagues">Home</a>
+    <table>
+        <thead>
+        <tr>
+            <th>Position</th>
+            <th>Team Name</th>
+            <th>Games Played</th>
+            <th>Points</th>
+            <th>Goals</th>
+            <th>Wins</th>
+            <th>Draws</th>
+            <th>Losses</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each this}}
+                <tr>
+                    <td>{{position}}</td>
+                    <td><a href="{{teamHref}}">{{teamName}}</a></td>
+                    <td>{{playedGames}}</td>
+                    <td>{{points}}</td>
+                    <td>{{goals}}</td>
+                    <td>{{wins}}</td>
+                    <td>{{draws}}</td>
+                    <td>{{losses}}</td>
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+        <br>
+    </div>
+</body>
+</html>

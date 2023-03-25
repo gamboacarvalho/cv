@@ -1,0 +1,15 @@
+<html>
+<body>
+<table>
+    <tr>
+        <th>Title</th>
+    </tr>
+    {{#each this}}
+        <tr>
+            <td>{{title}}</td>
+            <td><a href="leagues/{{id}}">{{caption}}</a></td>
+        </tr>
+    {{/each}}
+</table>
+</body>
+</html>
