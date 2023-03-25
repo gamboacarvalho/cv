@@ -1,0 +1,23 @@
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+// Apply the application plugin to add support for building an application
+apply plugin: 'application'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    // Use jcenter for resolving your dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    jcenter()
+}
+
+dependencies {
+    implementation project(':movasync')
+
+    implementation 'org.slf4j:slf4j-jdk14:1.7.25'
+    implementation 'io.vertx:vertx-web-templ-handlebars:3.5.2'
+    implementation 'io.vertx:vertx-web:3.5.2'
+}
+
+// Define the main class for the application
+mainClassName = 'movweb.WebApp'
+

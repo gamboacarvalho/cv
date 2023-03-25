@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Semantic UI CSS and JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.js"></script>
+
+    <!-- Favorite icon -->
+    <title>MOVIE</title>
+
+</head>
+<body>
+<div class="ui segment">
+    <div class="ui three column grid container">
+        <div class="column">
+            <div class="ui image floated center">
+                <img src={{movie.posterPath}}>
+            </div>
+        </div>
+        <div class="column middle aligned">
+            <div class="ui segments">
+                <div class="ui segment">
+                    <p>
+                        <strong>{{movie.originalTitle}}</strong>
+                    </p>
+                </div>
+                <div class="ui segments">
+                    <div class="ui segment">
+                        <p>
+                            <strong>Vote Average:</strong>{{movie.voteAverage}}</p>
+                    </div>
+                    <div class="ui segment">
+                        <p>
+                            <strong>Release Date:</strong> {{movie.releaseDate}}</p>
+                    </div>
+                    <div class="ui segment">
+                        <p><strong>Credits:</strong> <a href="/movies/{{movie.id}}/credits"> credits</a></p>
+                    </div>
+                </div>
+                <div class="ui segment">
+                    <p>{{movie.overview}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>

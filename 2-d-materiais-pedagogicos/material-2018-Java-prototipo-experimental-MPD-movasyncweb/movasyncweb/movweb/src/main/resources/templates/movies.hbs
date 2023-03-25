@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Semantic UI CSS and JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.js"></script>
+
+    <!-- Favorite icon -->
+    <title>MOVIE</title>
+
+</head>
+<body>
+<table class="ui red table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Tittle</th>
+    </tr>
+    </thead>
+
+    <tbody>
+        {{#each movies}}
+            <tr>
+                <td><a href="/movies/{{id}}">{{id}}</a></td>
+                <td>{{title}}</td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
+</body>
+

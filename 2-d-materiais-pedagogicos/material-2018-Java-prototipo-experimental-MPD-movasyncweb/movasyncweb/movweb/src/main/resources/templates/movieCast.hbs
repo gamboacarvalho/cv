@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Semantic UI CSS and JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.js"></script>
+
+    <!-- Favorite icon -->
+    <title>MOVIE</title>
+
+</head>
+<body>
+<table class="ui red table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Character</th>
+        <th>Job</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    {{#each movieCast}}
+        <tr>
+            <td><a href="/person/{{id}}">{{name}}</a></td>
+            <td>{{#if character}}{{character}} {{else}} - {{/if}}</td>
+            <td>{{#if job}}{{job}} {{else}} - {{/if}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+</body>
