@@ -1,0 +1,22 @@
+plugins {
+    // Apply the application plugin to add support for building a CLI application in Java.
+    id 'java-library'
+}
+
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'org.asynchttpclient:async-http-client:2.0.32'
+    implementation 'org.slf4j:slf4j-jdk14:1.7.25'
+    implementation 'org.eclipse.jetty:jetty-server:9.4.5.v20170502'
+    implementation 'org.eclipse.jetty:jetty-servlet:9.4.5.v20170502'
+
+
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
+
