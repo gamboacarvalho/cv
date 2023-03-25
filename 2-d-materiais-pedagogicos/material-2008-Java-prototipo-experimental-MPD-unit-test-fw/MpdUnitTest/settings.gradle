@@ -1,0 +1,6 @@
+/*
+ * The settings file is used to specify which projects to include in your build.
+ */
+
+rootProject.name = 'MpdUnitTest'
+include('mpdUnitTest')

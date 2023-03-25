@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE testSession SYSTEM "testResults.dtd">
+<testSession time="17-09-2009 19:54">
+<testClass name="MaximumTimeEvaluatorTest" description="A class that tests the MaximumTimeEvaluator">
+<testMethod name="testMethod3">
+<methodEvaluation success="Failed" annotationType="MaximumTime">Failed. Max time: 10ms. Time taken: 31ms.</methodEvaluation>Failed</testMethod>
+<testMethod name="testMethod4">
+<methodEvaluation success="OK" annotationType="MaximumTime">OK. Time taken: 16ms</methodEvaluation>OK</testMethod>Failed</testClass>
+<testClass name="ExpectedExceptionEvaluatorTest" description="A class that tests the ExpectedExceptionEvaluator">
+<testMethod name="testMethod1">
+<methodEvaluation success="OK" annotationType="ExpectedException">OK.</methodEvaluation>OK</testMethod>
+<testMethod name="testMethod2">
+<methodEvaluation success="OK" annotationType="ExpectedException">OK.</methodEvaluation>OK</testMethod>OK</testClass>
+<testClass name="ReturnsEvaluatorTest" description="A class that tests the ReturnsEvaluator">
+<testMethod name="testMethod5">
+<methodEvaluation success="OK" annotationType="Returns">OK.</methodEvaluation>OK</testMethod>
+<testMethod name="testMethod6">
+<methodEvaluation success="Failed" annotationType="Returns">Failed. Expected: Programming . Result: Martelada .</methodEvaluation>Failed</testMethod>Failed</testClass>Failed</testSession>

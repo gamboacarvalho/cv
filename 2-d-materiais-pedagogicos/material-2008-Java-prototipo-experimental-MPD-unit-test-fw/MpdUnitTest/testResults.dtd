@@ -1,0 +1,11 @@
+<!ELEMENT testSession 			(testClass*)>
+<!ELEMENT testClass 				(testMehtod*)>
+<!ELEMENT testMehtod 			(methodEvaluation*)>
+<!ELEMENT methodEvaluation 	(#PCDATA)>
+
+<!ATTLIST testSession 				time 					CDATA 	#REQUIRED>
+<!ATTLIST testClass 					name 					CDATA 	#REQUIRED>
+<!ATTLIST testClass 					description 			CDATA	#REQUIRED>
+<!ATTLIST testMehtod 				name 					CDATA	#REQUIRED>
+<!ATTLIST methodEvaluation 	success 				CDATA 	#REQUIRED>
+<!ATTLIST methodEvaluation 	annotationType 	CDATA 	#REQUIRED>
