@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAOBuilder", "DAOBuilder\DAOBuilder.csproj", "{A8C339D4-A43F-4DF5-8E4D-D90D485E4812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAOModel", "DAOModel\DAOModel.csproj", "{B664F043-A703-4C03-B3E3-9BC7CA3C5908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAOTest", "DAOTest\DAOTest.csproj", "{6555F03D-3C2D-4B74-B09C-F7FF1F0BB529}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8C339D4-A43F-4DF5-8E4D-D90D485E4812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C339D4-A43F-4DF5-8E4D-D90D485E4812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C339D4-A43F-4DF5-8E4D-D90D485E4812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C339D4-A43F-4DF5-8E4D-D90D485E4812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B664F043-A703-4C03-B3E3-9BC7CA3C5908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B664F043-A703-4C03-B3E3-9BC7CA3C5908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B664F043-A703-4C03-B3E3-9BC7CA3C5908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B664F043-A703-4C03-B3E3-9BC7CA3C5908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6555F03D-3C2D-4B74-B09C-F7FF1F0BB529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6555F03D-3C2D-4B74-B09C-F7FF1F0BB529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6555F03D-3C2D-4B74-B09C-F7FF1F0BB529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6555F03D-3C2D-4B74-B09C-F7FF1F0BB529}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
