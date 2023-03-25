@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':jingle-util')
+    implementation 'com.google.code.gson:gson:2.8.5'
+    testImplementation 'junit:junit:4.8.1'
+}

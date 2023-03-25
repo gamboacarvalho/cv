@@ -1,0 +1,25 @@
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+// Apply the application plugin to add support for building an application
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 11
+
+
+dependencies {
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.9'
+    implementation 'com.github.jknack:handlebars:4.1.2'
+
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'io.vertx:vertx-web:3.7.1'
+    implementation 'com.github.xmlet:htmlflow:3.2'
+    testImplementation 'junit:junit:4.12'
+}
+
+// Define the main class for the application
+mainClassName = 'org.isel.jingle.vertx.WebApp'
+
