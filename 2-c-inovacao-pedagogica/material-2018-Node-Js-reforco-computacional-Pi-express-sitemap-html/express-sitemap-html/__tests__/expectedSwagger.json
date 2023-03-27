@@ -1,0 +1,156 @@
+{
+    "openapi": "3.0.0",
+    "paths": {
+        "/api/foo": {
+            "post": {
+                "tags": [
+                    "vinyl"
+                ],
+                "parameters": [],
+                "responses": {},
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "username": {
+                                        "type": "string"
+                                    },
+                                    "group": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        },
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "username": {
+                                        "type": "string"
+                                    },
+                                    "group": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "get": {
+                "tags": [
+                    "vinyl"
+                ],
+                "parameters": [],
+                "responses": {}
+            }
+        },
+        "/api/bar": {
+            "get": {
+                "tags": [
+                    "vinyl"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "master"
+                    },
+                    {
+                        "in": "query",
+                        "name": "boss"
+                    }
+                ],
+                "responses": {}
+            }
+        },
+        "/zaz": {
+            "get": {
+                "tags": [
+                    "vinyl"
+                ],
+                "parameters": [],
+                "responses": {}
+            }
+        },
+        "/admin": {
+            "get": {
+                "tags": [
+                    "vinyl"
+                ],
+                "parameters": [],
+                "responses": {}
+            },
+            "post": {
+                "tags": [
+                    "vinyl"
+                ],
+                "parameters": [],
+                "responses": {}
+            }
+        },
+        "/duplicate/{id}/group/{nick}": {
+            "put": {
+                "tags": [
+                    "vinyl"
+                ],
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "required": "true"
+                    },
+                    {
+                        "in": "path",
+                        "name": "nick",
+                        "required": "true"
+                    }
+                ],
+                "responses": {}
+            }
+        },
+        "/duplicate/{id}": {
+            "get": {
+                "tags": [
+                    "vinyl"
+                ],
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "required": "true"
+                    }
+                ],
+                "responses": {}
+            }
+        },
+        "/duplicate": {
+            "get": {
+                "tags": [
+                    "vinyl"
+                ],
+                "parameters": [],
+                "responses": {}
+            }
+        },
+        "/foo": {
+            "post": {
+                "tags": [
+                    "vinyl"
+                ],
+                "parameters": [],
+                "responses": {}
+            }
+        },
+        "/noo": {
+            "put": {
+                "tags": [
+                    "vinyl"
+                ],
+                "parameters": [],
+                "responses": {}
+            }
+        }
+    }
+}
