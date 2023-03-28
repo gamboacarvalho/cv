@@ -2,6 +2,8 @@
 
 **Title**: CApacitacão de Software do Centro de Investigação Fernando FOnseca (CASCIFFO)
 
+Reconhecimento de mérito técnico-científico obtido em 2022 no Conselho Técnico-Científico do ISEL.
+
 Projeto de parceria entre o ISEL e o Hospital Fernando Fonseca (HFF) com  financiado do Prémio da Agência de Investigação Clínica e Inovação Biomédica (AICIB) 2021.
 
 ### Budget
