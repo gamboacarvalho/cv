@@ -1,1 +1,3 @@
 Public repository https://github.com/javasync/RxIo
+
+Computational reinforcement MPD 2019 RxIo surpass the awkward Java Asycnhronous API of `AsynchronousFileChannel` for non-blocking IO Files. Instead of Listener based implementation approach, the RxIo provides through `AsyncFiles` API several ways of non-blocking File access according to State of the Art standards such as `CompletableFuture`, `Observable` and _reactive-streams_, which can be practiced by students in MPD according to the curricular plan.
