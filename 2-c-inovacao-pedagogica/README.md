@@ -6,3 +6,4 @@ Promoção de novas iniciativas pedagógicas: propostas fundamentadas e coerente
 criação e/ou reformulação de unidades curriculares, criação ou reforço de infraestruturas
 laboratoriais de apoio ao ensino (de natureza experimental e/ou computacional), criação ou
  reestruturação de grupos de unidades curriculares ou de planos de estudos.
+ 
